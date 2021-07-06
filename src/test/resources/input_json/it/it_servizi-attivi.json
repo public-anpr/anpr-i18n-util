@@ -1,0 +1,38 @@
+{
+		"titleCard": "Servizi attivi",
+		"visura": {
+    "title": "Visura",
+    "body": "In questa area è possibile consultare i propri dati anagrafici nonchè quelli del nucleo familiare e richiedere autocertificazioni.",
+    "footerItem": "Consulta i tuoi dati anagrafici"
+  },
+  "visura_tng": {
+    "title": "Visura",
+    "body": "In questa area è possibile consultare i propri dati anagrafici nonchè quelli del nucleo familiare e richiedere autocertificazioni.",
+    "footerItem": "Consulta i tuoi dati anagrafici"
+  },
+  "profilo": {
+    "title": "Profilo utente",
+    "body": "In questa area è possibile indicare i propri recapiti; aggiungere i recapiti consente di ricevere certificati e notifiche sul proprio indirizzo Email.",
+    "footerItem": "Inserisci i tuoi recapiti"
+  },
+  "comunicazioni": {
+    "title": "Rettifica dati",
+    "body": "In questa area è possibile inviare una richiesta di rettifica di uno o più dati anagrafici che non coinvolgono altri soggetti.",
+    "footerItem": "Richiedi la modifica dei tuoi dati"
+  },
+  "certificati": {
+    "title": "Certificazione",
+    "body": "In questa area è possibile richiedere uno o più certificati per sè stesso o per un componente del nucleo familiare.",
+    "footerItem": "Richiedi un certificato"
+  },
+  "cert_tng": {       
+    "title": "Certificazione",
+    "body": "In questa area è possibile richiedere uno o più certificati per s&eacute; stesso o per un componente del nucleo familiare o per altro soggetto.",
+    "footerItem": "Richiedi un certificato"
+  },
+  "residenza": {
+    "title": "Residenza",
+    "body": "In questa area è possibile dichiarare un cambio di residenza all'interno del Comune o con provenienza da un altro Comune.",
+    "footerItem": "Richiedi un cambio di residenza"
+  }
+}

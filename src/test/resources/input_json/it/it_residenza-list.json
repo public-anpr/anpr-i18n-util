@@ -1,0 +1,40 @@
+{
+  "dataDa": "Data di apertura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa)",
+  "dataA": "Data di chiusura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa)",
+  "ricercaBody": {
+    "inputLabel": "Codice pratica",
+    "cerca": "Cerca",
+    "richiesteInserite": "dichiarazioni inserite"
+  },
+  "richiesteTHead": {
+    "descrizione": "Descrizione",
+    "codice": "Codice",
+    "dataApertura": "Data Apertura",
+    "dataChiusura": "Data Chiusura",
+    "stato": "Stato",
+    "azioni": "Azioni"
+  },
+  "titleCambioResidenza": "Inserisci una dichiarazione",
+  "titleGuida": "Guida alla compilazione di una dichiarazione",
+  "titleRicerca": "Dichiarazioni inserite",
+  "eliminaBodyModal": {
+    "question": "Vuoi eliminare la richiesta numero",
+    "elimina": "Elimina",
+    "annulla": "Annulla"
+  },
+  "richiesteTBody": {
+    "modificaRichiesta": "Modifica la richiesta numero",
+    "eliminaBozza": "Elimina la bozza numero",
+    "dettaglioRichiesta": "Dettaglio della richiesta numero",
+    "scaricaPdf": "Scarica in pdf la richiesta numero"
+  },
+  "nuovaRichiesta": {
+    "message": "Per inserire una nuova richiesta di rettifica puoi consultare la ",
+    "guida": "Guida alla compilazione. <sr-only> {{novaFinestra}}</sr-only>",
+    "registraDichiarazione": "Registra una dichiarazione<sr-only> {{cambio}}</sr-only>"
+  },
+  "descrizione": "In questa sezione è possibile dichiarare una nuova residenza o completare una dichiarazione precedentemente salvata in bozza.",
+  "title": "Residenza",
+  "tableCaptionDichiarazioniInserite": "Elenco dichiarazioni inserite",
+  "nessunaDichiarazioneTrovata": "Nessuna dichiarazione corrispondente ai criteri di ricerca selezionati."
+}

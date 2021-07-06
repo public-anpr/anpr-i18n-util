@@ -1,0 +1,82 @@
+{
+  "comunicazioni": {
+    "rettificheBody": "Invia una richiesta di rettifica al tuo comune di residenza per la rettifica di un dato anagrafico per errore materiale. Potrai monitorare lo stato della tua pratica in ogni momento",
+    "segnalazioniBody": "Invia una segnalazione al tuo comune. Sarai contatto nel più breve tempo possibile.",
+    "rettificheFooter": "Inserisci",
+    "segnalazioniFooter": "Inserisci",
+    "ricercaBody": {
+      "dataInizio": "Data inizio",
+      "dataFine": "Data fine",
+      "cerca": "Cerca"
+    },
+    "richiesteTHead": {
+      "numero": "Numero",
+      "descrizione": "Descrizione",
+      "dataApertura": "Data Apertura",
+      "dataChiusura": "Data Chiusura",
+      "stato": "Stato",
+      "azioni": "Azioni"
+    },
+    "titleRettifiche": "Rettifiche",
+    "titleSegnalazioni": "Segnalazioni",
+    "titleGuida": "Guida alla compilazione di una richiesta",
+    "richiesteTBodySeleziona": "Seleziona",
+    "title": "Comunicazioni",
+    "description": "In questa sezione è possibile inviare una richiesta di rettifica al comune di appartenenza per una modifica dati per errore materiale oppure comunicare al comune una segnalazione.",
+    "elencoRichieste": "Elenco Richieste",
+    "noRichiesteInserite": "Nessuna richiesta inserita"
+  },
+  "rettificheHome": {
+    "checkIntervalMessage": "Data di chiusura non è in un intervallo valido",
+    "onChangeDataDa": {
+      "errorFormato": "Data di apertura non è nel formato corretto",
+      "errorIntervallo": "Data di apertura non è in un intervallo valido"
+    },
+    "onChangeDataA": {
+      "errorFormato": "Data di chiusura non è nel formato corretto",
+      "errorIntervallo": "Data di chiusura non è in un intervallo valido"
+    },
+    "onChangeCodice": {
+      "errorCodice": "Codice richiesta deve essere numerico"
+    },
+    "dataDa": "Data di apertura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa)",
+    "dataA": "Data di chiusura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa)",
+    "ricercaBody": {
+      "inputLabel": "Codice richiesta",
+      "cerca": "Cerca",
+      "richiesteInserite": "richieste inserite"
+    },
+    "richiesteTHead": {
+      "descrizione": "Descrizione",
+      "codice": "Codice",
+      "dataApertura": "Data Apertura",
+      "dataChiusura": "Data Chiusura",
+      "stato": "Stato",
+      "azioni": "Azioni"
+    },
+    "titleRettifiche": "Inserisci una richiesta",
+    "titleGuida": "Guida alla compilazione di una richiesta",
+    "eliminaBodyModal": {
+      "question": "Vuoi eliminare la richiesta numero",
+      "elimina": "Elimina",
+      "annulla": "Annulla"
+    },
+    "richiesteTBody": {
+      "modificaRichiesta": "Modifica la richiesta numero",
+      "eliminaBozza": "Elimina la bozza numero",
+      "dettaglioRichiesta": "Dettaglio della richiesta numero",
+      "scaricaPdf": "Scarica in pdf la richiesta numero"
+    },
+    "titleRicerca": "Richieste inserite",
+    "nuovaRichiesta": {
+      "message": "Per inserire una nuova richiesta di rettifica puoi consultare la ",
+      "guida": "Guida alla compilazione. <sr-only> {{novaFinestra}}</sr-only>",
+      "inserisciNuova": "Inserisci una richiesta<sr-only> {{rettifica}}</sr-only>"
+    },
+    "descrizione": "In questa sezione è possibile procedere alla registrazione di una richiesta di rettifica dei dati anagrafici oppure modificare o consultare le richieste precedentemente inserite.",
+    "rettificaDati": "Rettifica dati",
+    "tableCaptionRichiesteRettifica": "Elenco richieste di rettifica dati",
+    "nessunaRichiestaTrovata": "Nessuna richiesta corrispondente ai criteri di ricerca selezionati.",
+    "nessunaRichiestaPresente": "Nessuna richiesta presente."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "handleDownloadRichiesta": "pratica",
+  "downloadButton": "Scarica riepilogo richiesta <sr-only>{{numero}}</sr-only>",
+  "fieldListIntestatario": {
+    "nome": "Nome",
+    "cognome": "Cognome",
+    "cf": "Codice fiscale",
+    "dataNascita": "Data di nascita",
+    "luogoNascita": "Luogo di nascita"
+  },
+  "fieldListRichiedente": {
+    "nome": "Nome",
+    "cognome": "Cognome",
+    "cf": "Codice fiscale",
+    "dataNascita": "Data di nascita",
+    "luogoNascita": "Luogo di nascita"
+  },
+  "theadStorico": {
+    "data": "Data di lavorazione",
+    "stato": "Stato di lavorazione"
+  },
+  "allegatiTHead": {
+    "nome": "Nome documento allegato",
+    "descrizione": "Descrizione allegato",
+    "download": "Download"
+  },
+  "allegatiTBody": {
+    "tableCaption": "Elenco della documentazione allegata",
+    "noAllegati": "Non ci sono documenti allegati alla richiesta"
+  },
+  "noNote": "Non ci sono note",
+  "sospesaTitle": "Integrazione documentazione",
+  "legendNuovaDoc": "Allega nuova documentazione",
+  "attenzioneAllegatiCorrotti": "Attenzione: per procedere all'integrazione occorre eliminare tutti i file corrotti e caricare i file corretti.",
+  "invia": "Invia integrazione",
+  "integrataTitle": "Integrazione documentazione",
+  "note": "Note:",
+  "noNoteAggiunte": "Non sono state aggiunte note",
+  "titleDettaglio": "Dettaglio richiesta",
+  "numeroRichiesta": "Dettaglio richiesta N."
+}

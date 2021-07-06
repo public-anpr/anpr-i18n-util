@@ -1,0 +1,54 @@
+{
+  "praticheHeader": "Storico richieste",
+  "infoSession": "Per tutti i servizi, dopo 30 minuti di inattività, la sessione scadrà e sarà necessario effettuare nuovamente l'autenticazione.",
+  "richiesteRecenti": "Richieste recenti",
+  "loginForm": {
+    "accedi": "ACCEDI"
+  },
+  "residenzaServizioNonAttivo": {
+    "servizioNonAttivo": "Servizio non attivo",
+    "title": "Servizi al cittadino"
+  },
+  "scrollToTop": {
+    "titles": {
+      "home": "Scrivania",
+      "profiloUtente": "Profilo utente",
+      "avvisi": "Storico avvisi",
+      "avviso": "Dettaglio avviso",
+      "storicoPratiche": "Storico richieste",
+      "visura": "Visura",
+      "certificazione": "Certificazione",
+      "componenteForm": "Richiedi certificato",
+      "certOnline": "Certificazione",
+      "certFamiglia": "Richiedi certificato",
+      "certSoggetto": "Richiedi certificato",
+      "certRichiesta": "Richiedi certificato",
+      "residenza": "Residenza",
+      "registrazioneResidenza": "Dichiarazione di cambio residenza",
+      "registrazioneNuovaResidenza": "Nuova residenza",
+      "registrazioneResidenzaFamigliaEsistente": "Residenza in famiglia esistente",
+      "comunicazioni": "Rettifica dati",
+      "rettifica": "Richiesta di rettifica",
+      "dettaglio": "Dettaglio richiesta"
+    },
+    "goToTop": "Vai al top della pagina"
+  },
+  "sessionExpire": {
+    "laSessioneScade": "La sessione scade tra",
+    "min": "min e",
+    "sec": "sec",
+    "sessioneScaduta": "La sessione è scaduta!"
+  },
+  "visuraAnagrafica": {
+    "body": {
+      "vaiAllApplicazione": "Vai all'applicazione <sr-only>{{visuraAnagrafica}}</sr-only>",
+      "newWindow": ": apre una nuova finestra"
+    },
+    "title": "Visura",
+    "descrizione": "In questa sezione è possibile consultare i propri dati anagrafici."
+  },
+  "tabsControl": {
+    "tabPrecedente": "Tab precedente",
+    "tabSuccessivo": "Tab successivo"
+  }
+}

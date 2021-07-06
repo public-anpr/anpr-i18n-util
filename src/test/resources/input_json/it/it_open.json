@@ -1,0 +1,12 @@
+{
+  "errorPage": {
+    "genericError": "Si e' verificato un errore generico",
+    "displayMessages": {
+      "login": "Impossibile effettuare il login.",
+      "causeErrorMessgae": "Purtroppo non è stato possibile accedere al servizio, le possibili cause sono:",
+      "comunePrestente": "Il tuo comune di residenza (o di iscrizione all'AIRE) non è ancora presente in ANPR (puoi\n              verificarlo facilmente utilizzando la funzione \"A che punto &egrave; il tuo Comune?\" disponibile nella\n              home page del Portale ANPR - &egrave; sufficiente digitare il nome del comune);",
+      "anomaliaDati": "se il tuo comune è già in ANPR allora c'è una anomalia nei tuoi dati e non\n              ci è stato possibile individuare in modo univoco la tua scheda anagrafica. Ti consigliamo di\n              rivolgerti al tuo comune di residenza (o di iscrizione all'AIRE) per maggiori informazioni."
+    },
+    "tornaAllaHome": "Torna alla homepage"
+  }
+}

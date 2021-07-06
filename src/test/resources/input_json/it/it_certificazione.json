@@ -1,0 +1,142 @@
+{
+  "dashboard": {
+    "titPagina": "Certificazione",
+    "descPagina": "Il servizio consente al cittadino di richiedere il rilascio di un certificato per sé stesso o uno dei componenti della propria famiglia anagrafica. È altresì consentita la richiesta di certificati anagrafici per un soggetto terzo limitatamente alla certificazione di residenza e di stato di famiglia.",
+    "nuovoCert-title": "Nuovo certificato",
+    "nuovoCert-label": "Per richiedere un nuovo certificato puoi consultare la",
+    "nuovoCert-link-guida": "Guida alla richiesta.",
+    "nuovoCert-hint": ": apre una nuova finestra",
+    "nuovoCert-link-personale": "Richiedi per te stesso",
+    "nuovoCert-link-famiglia": "Richiedi per la tua famiglia",
+    "nuovoCert-link-soggetto": "Richiedi per altro soggetto"
+  },
+  "famiglia": {
+    "titPagina": "Seleziona soggetto",
+    "descPagina": "In questa sezione è possibile selezionare la persona per cui si intende richiedere il certificato.",
+    "componentiHead": {
+      "nome": "Nome",
+      "cognome": "Cognome",
+      "legame": "Legame",
+      "dataNascita": "Data di nascita",
+      "cf": "Codice fiscale",
+      "azioni": "Azioni"
+    },
+    "componentiBody": {
+      "link": "Seleziona",
+      "text": "Seleziona"
+    },
+    "componentiTable": {
+      "tableCaption": "Elenco componenti nucleo familiare"
+    },
+    "famigliaBody": {
+      "data": "Data origine famiglia/convivenza",
+      "identificativo": "Identificativo scheda attribuito da ANPR",
+      "denominazioneConvivenza": "Denominazione convivenza"
+    },
+    "famigliaPanel": {
+      "title": "Famiglia/Convivenza"
+    }
+  },
+  "richiesta": {
+  },
+  "soggetto": {
+    "titPagina": "Ricerca soggetto intestatario",
+    "descPagina": "",
+    "ricercaCF": {
+      "title": "Ricerca per codice fiscale",
+      "inputLabel": "Codice fiscale"
+    },
+    "ricercaAnagrafica": {
+      "title": "Ricerca per dati anagrafici",
+      "cognome": "Cognome",
+      "nome": "Nome",
+      "dataNascita": "Data nascita",
+      "statoNascita": "Stato nascita",
+      "nomeStatoNascita": "Stato non attribuibile",
+      "provinciaNascita": "Provincia nascita",
+      "comuneNascita": "Comune nascita"
+    },
+    "ricercaForm": {
+      "textCenter": "oppure",
+      "ricerca": "Ricerca",
+      "ripulisci": "Ripulisci"
+    },
+    "resultHead": {
+      "nome": "Nome",
+      "cognome": "Cognome",
+      "dataNascita": "Data di nascita",
+      "cf": "Codice fiscale"
+    },
+    "resultTable": {
+      "loading": "Caricamento dei dati in corso",
+      "tableCaption": "Esito della ricerca soggetto intestatario",
+      "linkCertificato": "Richiedi certificato",
+      "nullRicerca": "Nessun soggetto trovato"
+    },
+    "errors": {
+      "codiceFiscale": "Codice fiscale formalmente errato",
+      "cognome":"Cognome ammette solo lettere e diacritici",
+      "nome": "Nome ammette solo lettere e diacritici",
+      "dataNascita":"Data nascita formalmente errato",
+      "nomeStatoNascita": "Stato non attribuibile contiene caratteri non ammessi"
+    }
+  },
+  "storico": {
+    "errors": {
+      "intervalloDate": "Intervallo date non valido",
+      "protocollo": "Protocollo deve essere numerico",
+      "dataDaFormato": "Data inizio non è nel formato corretto",
+      "dataDaIntervallo": "Data inizio non è in un intervallo valido",
+      "dataAFormato": "Data fine non è nel formato corretto",
+      "dataAIntervallo": "Data fine non è in un intervallo valido"
+    },
+    "titPagina":"Certificati emessi",
+    "dataDaLabel": "Data inizio <sr-only>{{formato}}</sr-only> (gg/mm/aaaa)",
+    "dataALabel": "Data fine <sr-only>{{formato}}</sr-only> (gg/mm/aaaa)",
+    "ricercaForm": {
+      "buttonCerca": "Cerca",
+      "certificato": "certificato"
+    },
+    "ricercaPanel": {
+      "title": "Ricerca certificati"
+    },
+    "resultHead": {
+      "tipologia": "Tipologia",
+      "richiedente": "Richiedente",
+      "intestatario": "Intestatario",
+      "protocollo": "Protocollo",
+      "dataEmissione": "Data emissione",
+      "azioni": "Azioni"
+    },
+    "resultBody": {
+      "downloadText": "Scarica in pdf il certificato"
+    },
+    "resultTable": {
+      "loading": "Caricamento dei dati in corso",
+      "tableCaption": "Elenco certificati emessi",
+      "noFound": "Nessun certificato emesso trovato"
+    }
+  },
+  "form": {
+    "motivoRichiesta": "Motivo richiesta",
+    "esenzione": "Esenzione",
+    "bolloVirtuale": "Identificativo marca da bollo",
+    "richiediCert": "Richiedi certificato",
+    "guidaRichiesta": "Guida alla richiesta  <sr-only> apre una nuova finestra</sr-only>",
+    "datiCert": "Dati del certificato",
+    "anteprima": {
+      "genera": "Genera",
+      "ateprimaText": " Anteprima",
+      "certificato": " certificato"
+    },
+    "download": {
+      "scarica": " Scarica",
+      "certificato": " certificato"
+    },
+    "send": {
+      "invia": " Invia",
+      "recapiti": " certificato ai tuoi recapiti"
+    },
+    "anteprimaCert": "Anteprima del certificato"
+  }
+}
