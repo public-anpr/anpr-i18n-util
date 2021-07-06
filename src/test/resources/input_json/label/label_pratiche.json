@@ -1,0 +1,18 @@
+{
+  "handleRemoveRichiesta" : "Vuoi eliminare la pratica (LABEL)",
+  "handleDownloadRichiesta" : "pratica (LABEL)",
+  "nextArrow" : "Successivo (LABEL)",
+  "prevArrow" : "Precedente (LABEL)",
+  "praticaTitle" : "Richiesta: (LABEL)",
+  "praticaBody" : {
+    "descr" : "Descrizione: (LABEL)",
+    "soggetto" : "Soggetto: (LABEL)",
+    "data" : "Data: (LABEL)",
+    "stato" : "Stato: (LABEL)",
+    "modifica" : "Modifica la richiesta numero (LABEL)",
+    "elimina" : "Elimina la richiesta numero (LABEL)",
+    "dettaglio" : "Dettaglio <sr-only> {{numero}} </sr-only> (LABEL)",
+    "scarica" : "Scarica in pdf <sr-only> {{numero}} </sr-only> (LABEL)"
+  },
+  "noRichiesteInviate" : "Nessuna richiesta inviata. (LABEL)"
+}

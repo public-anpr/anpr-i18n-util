@@ -1,0 +1,82 @@
+{
+  "comunicazioni" : {
+    "rettificheBody" : "Invia una richiesta di rettifica al tuo comune di residenza per la rettifica di un dato anagrafico per errore materiale. Potrai monitorare lo stato della tua pratica in ogni momento (LABEL)",
+    "segnalazioniBody" : "Invia una segnalazione al tuo comune. Sarai contatto nel più breve tempo possibile. (LABEL)",
+    "rettificheFooter" : "Inserisci (LABEL)",
+    "segnalazioniFooter" : "Inserisci (LABEL)",
+    "ricercaBody" : {
+      "dataInizio" : "Data inizio (LABEL)",
+      "dataFine" : "Data fine (LABEL)",
+      "cerca" : "Cerca (LABEL)"
+    },
+    "richiesteTHead" : {
+      "numero" : "Numero (LABEL)",
+      "descrizione" : "Descrizione (LABEL)",
+      "dataApertura" : "Data Apertura (LABEL)",
+      "dataChiusura" : "Data Chiusura (LABEL)",
+      "stato" : "Stato (LABEL)",
+      "azioni" : "Azioni (LABEL)"
+    },
+    "titleRettifiche" : "Rettifiche (LABEL)",
+    "titleSegnalazioni" : "Segnalazioni (LABEL)",
+    "titleGuida" : "Guida alla compilazione di una richiesta (LABEL)",
+    "richiesteTBodySeleziona" : "Seleziona (LABEL)",
+    "title" : "Comunicazioni (LABEL)",
+    "description" : "In questa sezione è possibile inviare una richiesta di rettifica al comune di appartenenza per una modifica dati per errore materiale oppure comunicare al comune una segnalazione. (LABEL)",
+    "elencoRichieste" : "Elenco Richieste (LABEL)",
+    "noRichiesteInserite" : "Nessuna richiesta inserita (LABEL)"
+  },
+  "rettificheHome" : {
+    "checkIntervalMessage" : "Data di chiusura non è in un intervallo valido (LABEL)",
+    "onChangeDataDa" : {
+      "errorFormato" : "Data di apertura non è nel formato corretto (LABEL)",
+      "errorIntervallo" : "Data di apertura non è in un intervallo valido (LABEL)"
+    },
+    "onChangeDataA" : {
+      "errorFormato" : "Data di chiusura non è nel formato corretto (LABEL)",
+      "errorIntervallo" : "Data di chiusura non è in un intervallo valido (LABEL)"
+    },
+    "onChangeCodice" : {
+      "errorCodice" : "Codice richiesta deve essere numerico (LABEL)"
+    },
+    "dataDa" : "Data di apertura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (LABEL)",
+    "dataA" : "Data di chiusura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (LABEL)",
+    "ricercaBody" : {
+      "inputLabel" : "Codice richiesta (LABEL)",
+      "cerca" : "Cerca (LABEL)",
+      "richiesteInserite" : "richieste inserite (LABEL)"
+    },
+    "richiesteTHead" : {
+      "descrizione" : "Descrizione (LABEL)",
+      "codice" : "Codice (LABEL)",
+      "dataApertura" : "Data Apertura (LABEL)",
+      "dataChiusura" : "Data Chiusura (LABEL)",
+      "stato" : "Stato (LABEL)",
+      "azioni" : "Azioni (LABEL)"
+    },
+    "titleRettifiche" : "Inserisci una richiesta (LABEL)",
+    "titleGuida" : "Guida alla compilazione di una richiesta (LABEL)",
+    "eliminaBodyModal" : {
+      "question" : "Vuoi eliminare la richiesta numero (LABEL)",
+      "elimina" : "Elimina (LABEL)",
+      "annulla" : "Annulla (LABEL)"
+    },
+    "richiesteTBody" : {
+      "modificaRichiesta" : "Modifica la richiesta numero (LABEL)",
+      "eliminaBozza" : "Elimina la bozza numero (LABEL)",
+      "dettaglioRichiesta" : "Dettaglio della richiesta numero (LABEL)",
+      "scaricaPdf" : "Scarica in pdf la richiesta numero (LABEL)"
+    },
+    "titleRicerca" : "Richieste inserite (LABEL)",
+    "nuovaRichiesta" : {
+      "message" : "Per inserire una nuova richiesta di rettifica puoi consultare la  (LABEL)",
+      "guida" : "Guida alla compilazione. <sr-only> {{novaFinestra}}</sr-only> (LABEL)",
+      "inserisciNuova" : "Inserisci una richiesta<sr-only> {{rettifica}}</sr-only> (LABEL)"
+    },
+    "descrizione" : "In questa sezione è possibile procedere alla registrazione di una richiesta di rettifica dei dati anagrafici oppure modificare o consultare le richieste precedentemente inserite. (LABEL)",
+    "rettificaDati" : "Rettifica dati (LABEL)",
+    "tableCaptionRichiesteRettifica" : "Elenco richieste di rettifica dati (LABEL)",
+    "nessunaRichiestaTrovata" : "Nessuna richiesta corrispondente ai criteri di ricerca selezionati. (LABEL)",
+    "nessunaRichiestaPresente" : "Nessuna richiesta presente. (LABEL)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "checkInterval" : {
+    "intervalloNonValido" : "Data di chiusura non è in un intervallo valido (LABEL)"
+  },
+  "onChangeDataDa" : {
+    "errorFormato" : "Data di apertura non è nel formato corretto (LABEL)",
+    "errorIntervallo" : "Data di apertura non è in un intervallo valido (LABEL)"
+  },
+  "onChangeDataA" : {
+    "errorFormato" : "Data di apertura non è nel formato corretto (LABEL)",
+    "errorIntervallo" : "Data di apertura non è in un intervallo valido (LABEL)"
+  },
+  "onChangeCodice" : {
+    "codiceDeveEssereNumerico" : "Codice richiesta deve essere numerico (LABEL)"
+  },
+  "eliminaBodyModal" : {
+    "question" : "Vuoi eliminare la richiesta numero (LABEL)",
+    "elimina" : "Elimina (LABEL)",
+    "annulla" : "Annulla (LABEL)"
+  },
+  "dataDa" : "Data di apertura <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (LABEL)",
+  "dataA" : "Data di chiusura <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (LABEL)",
+  "ricercaBody" : {
+    "codiceRichiesta" : "Codice richiesta (LABEL)",
+    "cerca" : "Cerca <sr-only>{{richiesta}}</sr-only> (LABEL)"
+  },
+  "richiesteTHead" : {
+    "descrizione" : "Descrizione (LABEL)",
+    "codice" : "Codice (LABEL)",
+    "dataApertura" : "Data di apertura (LABEL)",
+    "dataChiusura" : "Data di chiusura (LABEL)",
+    "stato" : "Stato (LABEL)",
+    "azioni" : "Azioni (LABEL)"
+  },
+  "richiesteTBody" : {
+    "modificaRichiesta" : "Modifica la richiesta numero (LABEL)",
+    "eliminaBozza" : "Elimina la bozza numero (LABEL)",
+    "dettaglioRichiesta" : "Dettaglio della richiesta numero (LABEL)",
+    "scaricaPdf" : "Scarica in pdf la richiesta numero (LABEL)"
+  },
+  "title" : "Storico richieste (LABEL)",
+  "descrizione" : "In questa sezione è possibile consultare le richieste precedentemente inserite. (LABEL)",
+  "tableCaptionElencoRichieste" : "Elenco richieste (LABEL)",
+  "nessunaRichiestaInserita" : "Nessuna richiesta inserita (LABEL)"
+}

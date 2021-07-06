@@ -1,0 +1,23 @@
+{
+  "infoFamiglia" : {
+    "dataOrigineFamiglia" : "Data origine famiglia/convivenza: (LABEL)",
+    "identificativoANPR" : "Identificativo scheda attribuito da ANPR: (LABEL)",
+    "denominazioneConvivenza" : "Denominazione convivenza: (LABEL)"
+  },
+  "infoCollapsibleResidenza" : {
+    "residenza" : "Residenza: (LABEL)",
+    "famiglia" : "Famiglia/Convivenza (LABEL)"
+  },
+  "componentiTableHead" : {
+    "nome" : "Nome (LABEL)",
+    "cognome" : "Cognome (LABEL)",
+    "legame" : "Legame (LABEL)",
+    "dataNascita" : "Data di nascita (LABEL)",
+    "cf" : "Codice fiscale (LABEL)",
+    "azioni" : "Azioni (LABEL)"
+  },
+  "componentiItemsButton" : "Seleziona (LABEL)",
+  "title" : "Certificazione (LABEL)",
+  "descrizione" : "In questa sezione è possibile selezionare la persona per cui si intende richiedere il certificato. (LABEL)",
+  "tableLabel" : "Elenco componenti nucleo familiare (LABEL)"
+}

@@ -1,0 +1,54 @@
+{
+  "praticheHeader" : "Storico richieste (LABEL)",
+  "infoSession" : "Per tutti i servizi, dopo 30 minuti di inattività, la sessione scadrà e sarà necessario effettuare nuovamente l'autenticazione. (LABEL)",
+  "richiesteRecenti" : "Richieste recenti (LABEL)",
+  "loginForm" : {
+    "accedi" : "ACCEDI (LABEL)"
+  },
+  "residenzaServizioNonAttivo" : {
+    "servizioNonAttivo" : "Servizio non attivo (LABEL)",
+    "title" : "Servizi al cittadino (LABEL)"
+  },
+  "scrollToTop" : {
+    "titles" : {
+      "home" : "Scrivania (LABEL)",
+      "profiloUtente" : "Profilo utente (LABEL)",
+      "avvisi" : "Storico avvisi (LABEL)",
+      "avviso" : "Dettaglio avviso (LABEL)",
+      "storicoPratiche" : "Storico richieste (LABEL)",
+      "visura" : "Visura (LABEL)",
+      "certificazione" : "Certificazione (LABEL)",
+      "componenteForm" : "Richiedi certificato (LABEL)",
+      "certOnline" : "Certificazione (LABEL)",
+      "certFamiglia" : "Richiedi certificato (LABEL)",
+      "certSoggetto" : "Richiedi certificato (LABEL)",
+      "certRichiesta" : "Richiedi certificato (LABEL)",
+      "residenza" : "Residenza (LABEL)",
+      "registrazioneResidenza" : "Dichiarazione di cambio residenza (LABEL)",
+      "registrazioneNuovaResidenza" : "Nuova residenza (LABEL)",
+      "registrazioneResidenzaFamigliaEsistente" : "Residenza in famiglia esistente (LABEL)",
+      "comunicazioni" : "Rettifica dati (LABEL)",
+      "rettifica" : "Richiesta di rettifica (LABEL)",
+      "dettaglio" : "Dettaglio richiesta (LABEL)"
+    },
+    "goToTop" : "Vai al top della pagina (LABEL)"
+  },
+  "sessionExpire" : {
+    "laSessioneScade" : "La sessione scade tra (LABEL)",
+    "min" : "min e (LABEL)",
+    "sec" : "sec (LABEL)",
+    "sessioneScaduta" : "La sessione è scaduta! (LABEL)"
+  },
+  "visuraAnagrafica" : {
+    "body" : {
+      "vaiAllApplicazione" : "Vai all'applicazione <sr-only>{{visuraAnagrafica}}</sr-only> (LABEL)",
+      "newWindow" : ": apre una nuova finestra (LABEL)"
+    },
+    "title" : "Visura (LABEL)",
+    "descrizione" : "In questa sezione è possibile consultare i propri dati anagrafici. (LABEL)"
+  },
+  "tabsControl" : {
+    "tabPrecedente" : "Tab precedente (LABEL)",
+    "tabSuccessivo" : "Tab successivo (LABEL)"
+  }
+}

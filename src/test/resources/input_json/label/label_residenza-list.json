@@ -1,0 +1,40 @@
+{
+  "dataDa" : "Data di apertura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (LABEL)",
+  "dataA" : "Data di chiusura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (LABEL)",
+  "ricercaBody" : {
+    "inputLabel" : "Codice pratica (LABEL)",
+    "cerca" : "Cerca (LABEL)",
+    "richiesteInserite" : "dichiarazioni inserite (LABEL)"
+  },
+  "richiesteTHead" : {
+    "descrizione" : "Descrizione (LABEL)",
+    "codice" : "Codice (LABEL)",
+    "dataApertura" : "Data Apertura (LABEL)",
+    "dataChiusura" : "Data Chiusura (LABEL)",
+    "stato" : "Stato (LABEL)",
+    "azioni" : "Azioni (LABEL)"
+  },
+  "titleCambioResidenza" : "Inserisci una dichiarazione (LABEL)",
+  "titleGuida" : "Guida alla compilazione di una dichiarazione (LABEL)",
+  "titleRicerca" : "Dichiarazioni inserite (LABEL)",
+  "eliminaBodyModal" : {
+    "question" : "Vuoi eliminare la richiesta numero (LABEL)",
+    "elimina" : "Elimina (LABEL)",
+    "annulla" : "Annulla (LABEL)"
+  },
+  "richiesteTBody" : {
+    "modificaRichiesta" : "Modifica la richiesta numero (LABEL)",
+    "eliminaBozza" : "Elimina la bozza numero (LABEL)",
+    "dettaglioRichiesta" : "Dettaglio della richiesta numero (LABEL)",
+    "scaricaPdf" : "Scarica in pdf la richiesta numero (LABEL)"
+  },
+  "nuovaRichiesta" : {
+    "message" : "Per inserire una nuova richiesta di rettifica puoi consultare la  (LABEL)",
+    "guida" : "Guida alla compilazione. <sr-only> {{novaFinestra}}</sr-only> (LABEL)",
+    "registraDichiarazione" : "Registra una dichiarazione<sr-only> {{cambio}}</sr-only> (LABEL)"
+  },
+  "descrizione" : "In questa sezione è possibile dichiarare una nuova residenza o completare una dichiarazione precedentemente salvata in bozza. (LABEL)",
+  "title" : "Residenza (LABEL)",
+  "tableCaptionDichiarazioniInserite" : "Elenco dichiarazioni inserite (LABEL)",
+  "nessunaDichiarazioneTrovata" : "Nessuna dichiarazione corrispondente ai criteri di ricerca selezionati. (LABEL)"
+}

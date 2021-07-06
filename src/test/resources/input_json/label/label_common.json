@@ -1,0 +1,9 @@
+{
+  "privacy" : {
+    "modal" : {
+      "title" : "Informativa (LABEL)",
+      "content" : "Informativa sul trattamento dei dati personali <sr-only> e sull'utilizzo dei cookies. Apre una nuova finestra</sr-only> (LABEL)",
+      "button" : "Ho letto l'informativa (LABEL)"
+    }
+  }
+}

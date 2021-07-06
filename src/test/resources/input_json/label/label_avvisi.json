@@ -1,0 +1,24 @@
+{
+  "home" : {
+    "title" : "Avvisi (LABEL)",
+    "footer" : "Storico avvisi (LABEL)",
+    "empty" : "Nessun avviso (LABEL)",
+    "detail" : "Dettaglio <sr-only>{{avviso}}</sr-only> (LABEL)",
+    "popover" : "Leggi {{avviso}} (LABEL)"
+  },
+  "storico" : {
+    "title" : "Storico avvisi (LABEL)",
+    "desc" : "In questa sezione &egrave; possibile consultare la lista storica di tutti gli avvisi. (LABEL)",
+    "caption" : "Elenco avvisi (LABEL)",
+    "thId" : "Id (LABEL)",
+    "thData" : "Data (LABEL)",
+    "thOggetto" : "Oggetto (LABEL)",
+    "thAzioni" : "Azioni (LABEL)",
+    "empty" : "Nessun avviso trovato (LABEL)",
+    "popover" : "Leggi {{avviso}} (LABEL)",
+    "searchTitle" : "Ricerca avvisi (LABEL)",
+    "labelAnno" : "Anno (LABEL)",
+    "labelOggetto" : "Oggetto (LABEL)",
+    "btnCerca" : "Cerca (LABEL)"
+  }
+}

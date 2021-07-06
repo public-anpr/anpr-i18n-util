@@ -1,0 +1,41 @@
+{
+  "handleDownloadRichiesta" : "pratica (LABEL)",
+  "downloadButton" : "Scarica riepilogo richiesta <sr-only>{{numero}}</sr-only> (LABEL)",
+  "fieldListIntestatario" : {
+    "nome" : "Nome (LABEL)",
+    "cognome" : "Cognome (LABEL)",
+    "cf" : "Codice fiscale (LABEL)",
+    "dataNascita" : "Data di nascita (LABEL)",
+    "luogoNascita" : "Luogo di nascita (LABEL)"
+  },
+  "fieldListRichiedente" : {
+    "nome" : "Nome (LABEL)",
+    "cognome" : "Cognome (LABEL)",
+    "cf" : "Codice fiscale (LABEL)",
+    "dataNascita" : "Data di nascita (LABEL)",
+    "luogoNascita" : "Luogo di nascita (LABEL)"
+  },
+  "theadStorico" : {
+    "data" : "Data di lavorazione (LABEL)",
+    "stato" : "Stato di lavorazione (LABEL)"
+  },
+  "allegatiTHead" : {
+    "nome" : "Nome documento allegato (LABEL)",
+    "descrizione" : "Descrizione allegato (LABEL)",
+    "download" : "Download (LABEL)"
+  },
+  "allegatiTBody" : {
+    "tableCaption" : "Elenco della documentazione allegata (LABEL)",
+    "noAllegati" : "Non ci sono documenti allegati alla richiesta (LABEL)"
+  },
+  "noNote" : "Non ci sono note (LABEL)",
+  "sospesaTitle" : "Integrazione documentazione (LABEL)",
+  "legendNuovaDoc" : "Allega nuova documentazione (LABEL)",
+  "attenzioneAllegatiCorrotti" : "Attenzione: per procedere all'integrazione occorre eliminare tutti i file corrotti e caricare i file corretti. (LABEL)",
+  "invia" : "Invia integrazione (LABEL)",
+  "integrataTitle" : "Integrazione documentazione (LABEL)",
+  "note" : "Note: (LABEL)",
+  "noNoteAggiunte" : "Non sono state aggiunte note (LABEL)",
+  "titleDettaglio" : "Dettaglio richiesta (LABEL)",
+  "numeroRichiesta" : "Dettaglio richiesta N. (LABEL)"
+}
