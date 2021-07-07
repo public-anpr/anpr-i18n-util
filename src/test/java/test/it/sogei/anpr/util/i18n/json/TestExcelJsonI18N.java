@@ -30,12 +30,12 @@ public class TestExcelJsonI18N {
 	@Test
 	public void testExcelParser() {
 		try ( Workbook workbook = new XSSFWorkbook();
-				FileOutputStream outputXlsWriter = new FileOutputStream( new File( "target/traduzioni_json.xlsx" ) ) ) {
+			FileOutputStream outputXlsWriter = new FileOutputStream( new File( "target/traduzioni_json.xlsx" ) ) ) {
 			File inputJsonPathIt = new File( INPUT_JSON_PATH, StubJsonI18N.CODICE_LINGUA_IT );
 			ExcelJsonI18N excel = new ExcelJsonI18N();
 			
 			for ( File currentInputItFile : inputJsonPathIt.listFiles() ) {
-				File currentInputLabelFile = new File( currentInputItFile.getCanonicalPath().replaceAll( "/"+StubJsonI18N.CODICE_LINGUA_IT+"/"+StubJsonI18N.CODICE_LINGUA_IT , "/label/label" ) );
+				File currentInputLabelFile = new File( currentInputItFile.getCanonicalPath().replaceAll( "\\\\"+StubJsonI18N.CODICE_LINGUA_IT+"\\\\"+StubJsonI18N.CODICE_LINGUA_IT , "\\\\label\\\\label" ) );
 				try ( FileReader inputIt = new FileReader(currentInputItFile);
 						FileReader inputLabel = new FileReader(currentInputLabelFile) ) {
 					String sheetName = currentInputItFile.getName().replace( ".json" , "" ).replace( "it_" , "" );
