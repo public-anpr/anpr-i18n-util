@@ -1,6 +1,5 @@
 package it.sogei.anpr.util.i18n.json;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.ArrayList;
@@ -52,19 +51,15 @@ public class ExcelJsonI18N {
 		Cell cell4 = rigaEtichette.createCell(3);
 		cell4.setCellValue("TRADUZIONE");
 		ObjectMapper mapper = new ObjectMapper();
-		
 		try {
 			Map<String,?> mappaLable = mapper.readValue(jsonLabel, Map.class);
 			Map<String,?> mappaTesti = mapper.readValue(jsonTesti, Map.class);
 			Set<String> keys = mappaTesti.keySet();
  			riga++;
 			riga = this.scorriMap(mappaTesti, mappaLable,riga,sheet,"");
-
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		
-		
 		return sheet;
 	}
 	
@@ -109,6 +104,57 @@ public class ExcelJsonI18N {
 		return rowNum;
 	}
 
+	public Sheet createSummary( Workbook workbook, Reader jsonSummary ) {
+		String nomeSheet = "summary";
+		Sheet sheet = workbook.createSheet( nomeSheet );
+		logger.info( "generazione sheet : {}", nomeSheet );
+		String[] etichette = {"LINGUA TRADUZIONE","PATH ORIGINALE ITALIANO","PATH ETICHETTE","PATH TRADUZIONI PRECEDENTI","SHEET LIST"};
+		for (int index=0; index < etichette.length; index++) {
+			Row rigaEtichette = sheet.createRow(index);
+			Cell cella = rigaEtichette.createCell(0);
+			cella.setCellValue(etichette[index]);
+		}
+		ObjectMapper mapper = new ObjectMapper();
+		try {
+			Map<String,?> mappa = mapper.readValue(jsonSummary, Map.class);
+			Set<String> keys = mappa.keySet();
+			this.scorriMapSummary(mappa, sheet);
+			
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		return sheet;
+	}
+	
+	private void scorriMapSummary(Map mappaSummary, Sheet sheet) {
+		Set<String> keys = mappaSummary.keySet();
+		int rowNum = 0;
+		for (String k:keys) {
+			if (mappaSummary.get(k) instanceof Map) {
+				Map<String,?> mapTemp = (Map<String,?>)mappaSummary.get(k);
+				Set<String> keys2 = mapTemp.keySet();
+				for (String k2:keys2) {
+					if (sheet.getRow(rowNum) == null) {
+						Row row = sheet.createRow(rowNum);
+					} 
+					Row row = sheet.getRow(rowNum);
+					Cell cella1 = row.createCell(1);
+					cella1.setCellValue(k2);
+					Cell cella2 = row.createCell(2);
+					cella2.setCellValue((String)mapTemp.get(k2));
+					rowNum++;
+				}
+			} else {
+				if (sheet.getRow(rowNum) == null) {
+					Row row = sheet.createRow(rowNum);
+				} 
+				Row row = sheet.getRow(rowNum);				
+				Cell cell = row.createCell(1);
+				cell.setCellValue((String)mappaSummary.get(k));
+				rowNum++;
+			}
+		}
+	}
 	
 }
 

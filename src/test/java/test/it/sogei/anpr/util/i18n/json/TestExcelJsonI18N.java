@@ -26,6 +26,7 @@ public class TestExcelJsonI18N {
 	private final static Logger logger = LoggerFactory.getLogger( TestExcelJsonI18N.class );
 	
 	private final static String INPUT_JSON_PATH = "src/test/resources/input_json/";
+	private final static String INPUT_JSON_SUMMARY_PATH = "src/test/resources/input_json/summary.json";
 	
 	@Test
 	public void testExcelParser() {
@@ -33,11 +34,19 @@ public class TestExcelJsonI18N {
 			FileOutputStream outputXlsWriter = new FileOutputStream( new File( "target/traduzioni_json.xlsx" ) ) ) {
 			File inputJsonPathIt = new File( INPUT_JSON_PATH, StubJsonI18N.CODICE_LINGUA_IT );
 			ExcelJsonI18N excel = new ExcelJsonI18N();
-			
+			File inputJsonSummaryPath = new File( INPUT_JSON_SUMMARY_PATH);
+
+			int label = 0;
 			for ( File currentInputItFile : inputJsonPathIt.listFiles() ) {
 				File currentInputLabelFile = new File( currentInputItFile.getCanonicalPath().replaceAll( "\\\\"+StubJsonI18N.CODICE_LINGUA_IT+"\\\\"+StubJsonI18N.CODICE_LINGUA_IT , "\\\\label\\\\label" ) );
 				try ( FileReader inputIt = new FileReader(currentInputItFile);
-						FileReader inputLabel = new FileReader(currentInputLabelFile) ) {
+					FileReader inputLabel = new FileReader(currentInputLabelFile);
+					FileReader inputJsonSummary = new FileReader(inputJsonSummaryPath);) {
+					if (label == 0) {
+						excel.createSummary(workbook, inputJsonSummary);
+						label=1;
+					}
+					
 					String sheetName = currentInputItFile.getName().replace( ".json" , "" ).replace( "it_" , "" );
 					excel.createSheet(workbook, sheetName, inputIt, inputLabel );
 				}
