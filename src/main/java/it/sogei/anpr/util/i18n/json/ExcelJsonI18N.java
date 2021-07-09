@@ -66,9 +66,10 @@ public class ExcelJsonI18N {
 	private int scorriMap(Map mappaText,Map mappaLabel,int rowNum, Sheet sheet, String keyPrecedente) {
 		Set<String> keys = mappaText.keySet();
 		for (String k:keys) {
+			
 			if (mappaText.get(k) instanceof Map) {
-				keyPrecedente = (StringUtils.isEmpty(keyPrecedente)) ? k : keyPrecedente+"."+k;
-				this.scorriMap((Map)mappaText.get(k),(Map)mappaLabel.get(k), rowNum, sheet,keyPrecedente);
+				keyPrecedente = k+".";
+				rowNum = this.scorriMap((Map)mappaText.get(k),(Map)mappaLabel.get(k), rowNum, sheet,keyPrecedente);
 			} else if (mappaText.get(k) instanceof ArrayList<?>) {
 				ArrayList<String> listText = (ArrayList<String>) mappaText.get(k);
 				ArrayList<String> listLabel = (ArrayList<String>) mappaLabel.get(k);
@@ -78,7 +79,7 @@ public class ExcelJsonI18N {
 					if (StringUtils.isEmpty(keyPrecedente)) {
 						cellaPath.setCellValue(k);
 					} else {
-						cellaPath.setCellValue(keyPrecedente+"."+k);
+						cellaPath.setCellValue(keyPrecedente+k);
 					}
 					Cell cellaLabel = row.createCell(1);
 					cellaLabel.setCellValue(listLabel.get(i));
@@ -92,7 +93,7 @@ public class ExcelJsonI18N {
 				if (StringUtils.isEmpty(keyPrecedente)) {
 					cellaPath.setCellValue(k);
 				} else {
-					cellaPath.setCellValue(keyPrecedente+"."+k);
+					cellaPath.setCellValue(keyPrecedente+k);
 				}
 				Cell cellaLabel = row.createCell(1);
 				cellaLabel.setCellValue((String)mappaLabel.get(k));
