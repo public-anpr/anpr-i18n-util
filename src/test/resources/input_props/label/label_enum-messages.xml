@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- EnumScStatoPratica -->
+  <entry key="enum.sc.stato.pratica.bozza">BOZZA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.aperta">APERTA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.presa.in.carico">IN LAVORAZIONE (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.respinta">RESPINTA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.evasa">EVASA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.sospesa">SOSPESA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.integrata">INTEGRATA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.bozza.in.verifica">IN VERIFICA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.sospesa.in.verifica">IN VERIFICA (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.irricevibile">IRRICEVIBILE (LABEL)</entry>
+  <entry key="enum.sc.stato.pratica.altro">ALTRO (LABEL)</entry>
+  
+<!-- EnumScStatoAllegato -->
+  <entry key="enum.sc.stato.allegato.valido">VALIDO (LABEL)</entry>
+  <entry key="enum.sc.stato.allegato.annullato">ANNULLATO (LABEL)</entry>
+  <entry key="enum.sc.stato.allegato.verifica_ko">VERIFICA_KO (LABEL)</entry>
+  <entry key="enum.sc.stato.allegato.in.verifica">IN VERIFICA (LABEL)</entry>
+  <entry key="enum.sc.stato.allegato.non.censito">ALTRO (LABEL)</entry>
+
+<!-- EnumScTipoRichiesta -->
+  <entry key="enum.sc.tipo.richiesta.rettifica.dati">RETTIFICA DATI (LABEL)</entry>
+  <entry key="enum.sc.tipo.richiesta.cambio.residenza">CAMBIO RESIDENZA (LABEL)</entry>
+  <entry key="enum.sc.tipo.richiesta.default">TIPO RICHIESTA NON CENSITO (LABEL)</entry>
+  
+<!-- EnumScTipoInvioEmailNotificaComune -->
+  <entry key="enum.sc.tipo.invio.email.notifica.comune.disattivato">disattivato (LABEL)</entry>
+  <entry key="enum.sc.tipo.invio.email.notifica.comune.invio.singolo">invio singolo (LABEL)</entry>
+  <entry key="enum.sc.tipo.invio.email.notifica.comune.riepilogo.giornaliero">riepilogo giornaliero (LABEL)</entry>
+  
+<!--  EnumScStatoRichiesta -->
+  <entry key="enum.sc.stato.richiesta.bozza">BOZZA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.aperta">APERTA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.presa.in.carico">IN LAVORAZIONE (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.respinta">RESPINTA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.chiusa">CHIUSA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.sospesa">SOSPESA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.integrata">INTEGRATA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.bozza.in.verifica">IN VERIFICA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.sospesa.in.verifica">IN VERIFICA (LABEL)</entry>
+  <entry key="enum.sc.stato.richiesta.altro">ALTRO (LABEL)</entry>
+
+<!-- EnumScProcedura -->
+  <entry key="enum.sc.proc.inserimento.richiesta">Inserimento Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.cancellazione.richiesta">Cancellazione Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.aggiorna.richiesta">Modifica Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.richieste">Selezione Richieste (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.richiestev">Selezione Richieste utente (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.pratiche.sogg">Selezione Richieste per soggetto (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.pratiche.idpratica">Selezione Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.pratiche.comune">Selezione Richiesta per comune (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.dett.pratica">Dettaglio Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.avvia.pratica">Avvio Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.elimina.pratica">Cancellazione Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.modifica.pratica.stato">Modifica Stato e Note Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.modifica.pratica.note">Modifica Descrizione Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.aggiungi.variazione">Aggiunta Variazione (LABEL)</entry>
+  <entry key="enum.sc.proc.applica.variazioni.gruppo">Aggiunta Gruppo di Variazioni (LABEL)</entry>
+  <entry key="enum.sc.proc.modifica.variazione">Modifica Variazione (LABEL)</entry>
+  <entry key="enum.sc.proc.elimina.variazione">Cancellazione Variazione (LABEL)</entry>
+  <entry key="enum.sc.proc.recupera.variazioni">Selezione Variazioni (LABEL)</entry>
+  <entry key="enum.sc.proc.imposta.stato.pratica">Modifica Stato Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.aggiungi.allegati">Aggiunta Allegati (LABEL)</entry>
+  <entry key="enum.sc.proc.rimuovi.allegato">Cancellazione Allegato (LABEL)</entry>
+  <entry key="enum.sc.proc.recupero.allegati">Selezione Allegati (LABEL)</entry>
+  <entry key="enum.sc.proc.inserisci.riepilogo">Inserimento Riepilogo Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.elimina.riepilogo">Cancellazione Riepilogo Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.modifica.riepilogo">Modifica Riepilogo Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.recupero.riepilogo">Selezione Riepilogo Richiesta (LABEL)</entry>
+  <entry key="enum.sc.proc.recupero.pratiche.bkoff">Selezione Richieste (LABEL)</entry>
+  <entry key="enum.sc.proc.conteggio.stati.pratiche">Conteggio stati pratiche (LABEL)</entry>
+  <entry key="enum.sc.proc.conteggi.comune">Conteggi pratiche per comune (LABEL)</entry>
+  <entry key="enum.sc.proc.conteggio.mon">Conteggio per monitoraggio (LABEL)</entry>
+  <entry key="enum.sc.proc.salva.note.citt">Salva note cittadino (LABEL)</entry>
+  <entry key="enum.sc.proc.proroga.pratica">Proroga pratica (LABEL)</entry>
+  <entry key="enum.sc.proc.get.notifica.comune">Recupero preferenze notifiche al comune (LABEL)</entry>
+  <entry key="enum.sc.proc.set.notifica.comune">Settaggio preferenze notifiche al comune (LABEL)</entry>
+  <entry key="enum.sc.proc.get.informazoni">Recupero lista comuni per report (LABEL)</entry>
+  <entry key="enum.sc.proc.ins.storico.certificati">Inserimento storicizzazione certificato (LABEL)</entry>
+  <entry key="enum.sc.proc.get.certificato">Recupero del certificato (LABEL)</entry>
+  <entry key="enum.sc.proc.ricerca.certificati">Ricerca storico certificati (LABEL)</entry>
+  <entry key="enum.sc.proc.sconosciuta">Errore generico (LABEL)</entry>
+</properties>
