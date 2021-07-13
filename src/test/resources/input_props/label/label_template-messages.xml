@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  	<entry key="testo_mail_cambio_stato">Richiesta N.{0}, tipo richiesta: {1}, stato richiesta: {2}, data avvio: {3}, id soggetto richiedente: {4} (LABEL)</entry> 
+  	<entry key="pratica_email_statorichiesta">Gentile utente, lo stato corrente della sua richiesta &#232;: {0} (LABEL)</entry> 
+  	<entry key="pratica_email_idrichiesta">Nell&#39; area privata di ANPR &#232; possibile consultare la pratica {0} per maggiori informazioni (LABEL)</entry> 
+  	<entry key="pratica_email_saluti">Distinti saluti (LABEL)</entry> 
+  	<entry key="pratica_email_mittente">Ufficio Servizi al cittadino (LABEL)</entry> 
+ 	<entry key="pratica_email_avvertenza">Attenzione:  (LABEL)</entry> 
+ 	<entry key="pratica_email_invio_automatico">La preghiamo di non rispondere a questa email poich&#233; trattasi di invio automatizzato da server non presidiato (LABEL)</entry> 
+ 	<entry key="proroga_email_statorichiesta">Gentile utente, la informiamo che la sua pratica &#232; stata prorogata. (LABEL)</entry> 
+ 	<entry key="proroga_email_idrichiesta">Nell&#39; area privata di ANPR &#232; possibile consultare la pratica {0} per maggiori informazion (LABEL)</entry> 
+ 	<entry key="proroga_email_saluti">Distinti saluti (LABEL)</entry> 
+ 	<entry key="proroga_email_mittente">Ufficio Servizi al cittadino (LABEL)</entry> 
+ 	<entry key="pratica_email_avvertenza">Attenzione:  (LABEL)</entry> 
+ 	<entry key="pratica_email_invio_automatico">La preghiamo di non rispondere a questa email poich&#233; trattasi di invio automatizzato da server non presidiato (LABEL)</entry> 
+  	
+</properties>
