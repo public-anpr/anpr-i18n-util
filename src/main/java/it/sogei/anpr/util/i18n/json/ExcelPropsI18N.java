@@ -1,12 +1,12 @@
 package it.sogei.anpr.util.i18n.json;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.Reader;
-import java.util.Properties;
+import java.util.Enumeration;
 import java.util.Set;
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.xmlbeans.impl.common.ReaderInputStream;
@@ -34,26 +34,72 @@ public class ExcelPropsI18N {
 	 * 
 	 * @return il foglio creato
 	 */
-	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader propTesti, Reader propLabel )  {
+	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader propTesti, Reader propEtichette )  {
 		Sheet sheet = workbook.createSheet( nomeSheet );
 		logger.info( "generazione sheet : {}", nomeSheet );
-		
+		int rowNum = 0;
+		Row rigaEtichette = sheet.createRow(rowNum);
+		Cell cell1 = rigaEtichette.createCell(0);
+		cell1.setCellValue("PERCORSO");
+		Cell cell2 = rigaEtichette.createCell(1);
+		cell2.setCellValue("DESCRIZIONE");
+		Cell cell3 = rigaEtichette.createCell(2);
+		cell3.setCellValue("TESTO");
+		Cell cell4 = rigaEtichette.createCell(3);
+		cell4.setCellValue("TRADUZIONE");
+		rowNum++;
 		try {
-			Properties prop = new Properties();
+			SortedProperties propText = new  SortedProperties();
+			propText.loadFromXML(new ReaderInputStream(propTesti, "UTF-8"));
+			SortedProperties propLabel = new  SortedProperties();
+			propLabel.loadFromXML(new ReaderInputStream(propEtichette, "UTF-8"));
+			Enumeration<?> keySet = propText.propertyNames();
 			
-			prop.loadFromXML(new ReaderInputStream(propTesti, "UTF-8"));
-			
-			Set<Object> keys = prop.keySet();
-			
-			for(Object k : keys) {
-				System.out.println(k);
+			while (keySet.hasMoreElements()) {
+				String key = (String) keySet.nextElement();
+				Row row = sheet.createRow(rowNum);
+				Cell cellaPath = row.createCell(0);
+				cellaPath.setCellValue(key.toString());
+				Cell cellaLabel = row.createCell(1);
+				cellaLabel.setCellValue(propLabel.getProperty(key));
+				Cell cellaText = row.createCell(2);
+				cellaText.setCellValue(propText.getProperty(key));
+				rowNum++;
 			}
-			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.error( "Errore : "+e, e );
 		}
-		
+		return sheet;
+	}
+	
+	public Sheet createSummary( Workbook workbook, Reader prop ) {
+		String nomeSheet = "summary";
+		Sheet sheet = workbook.createSheet( nomeSheet );
+		logger.info( "generazione sheet : {}", nomeSheet );
+		String[] etichette = {"LINGUA TRADUZIONE","PATH ORIGINALE ITALIANO","PATH ETICHETTE","PATH TRADUZIONI PRECEDENTI","SHEET LIST"};
+		for (int index=0; index < etichette.length; index++) {
+			Row rigaEtichette = sheet.createRow(index);
+			Cell cella = rigaEtichette.createCell(0);
+			cella.setCellValue(etichette[index]);
+		}
+		try {
+			SortedProperties propSummary = new  SortedProperties();
+			propSummary.loadFromXML(new ReaderInputStream(prop, "UTF-8"));
+			int rowNum=0;
+			Enumeration<?> keySet = propSummary.propertyNames();
+			while (keySet.hasMoreElements()) {
+				String key = (String) keySet.nextElement();
+				if(sheet.getRow(rowNum) == null) {
+					Row row = sheet.createRow(rowNum);
+				}
+				Row row = sheet.getRow(rowNum);
+				Cell cella = row.createCell(1);
+				cella.setCellValue(propSummary.getProperty(key));
+				rowNum++;
+			}
+		} catch (IOException e) {
+			logger.error( "Errore : "+e, e );
+		}
 		return sheet;
 	}
 

@@ -20,7 +20,7 @@ public class SortedProperties extends Properties {
 	private Vector<Object> keys = new Vector<Object>();
 	private transient volatile Set<java.util.Map.Entry<Object, Object>> entrySet;
 
-	public class MyEntrySet extends AbstractSet<Map.Entry<Object,Object>> {
+	private class MyEntrySet extends AbstractSet<Map.Entry<Object,Object>> {
 
 		@Override
 		public Iterator<java.util.Map.Entry<Object, Object>> iterator() {

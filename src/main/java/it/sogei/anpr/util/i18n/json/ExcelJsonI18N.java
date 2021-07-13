@@ -3,6 +3,7 @@ package it.sogei.anpr.util.i18n.json;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -52,8 +53,8 @@ public class ExcelJsonI18N {
 		cell4.setCellValue("TRADUZIONE");
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			Map<String,?> mappaLable = mapper.readValue(jsonLabel, Map.class);
-			Map<String,?> mappaTesti = mapper.readValue(jsonTesti, Map.class);
+			LinkedHashMap<String,?> mappaLable = mapper.readValue(jsonLabel, LinkedHashMap.class);
+			LinkedHashMap<String,?> mappaTesti = mapper.readValue(jsonTesti, LinkedHashMap.class);
 			Set<String> keys = mappaTesti.keySet();
  			riga++;
 			riga = this.scorriMap(mappaTesti, mappaLable,riga,sheet,"");
@@ -117,7 +118,7 @@ public class ExcelJsonI18N {
 		}
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			Map<String,?> mappa = mapper.readValue(jsonSummary, Map.class);
+			LinkedHashMap<String,?> mappa = mapper.readValue(jsonSummary, LinkedHashMap.class);
 			Set<String> keys = mappa.keySet();
 			this.scorriMapSummary(mappa, sheet);
 			
