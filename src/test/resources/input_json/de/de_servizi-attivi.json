@@ -1,0 +1,38 @@
+{
+		"titleCard": "Servizi attivi (DE)",
+		"visura": {
+    "title": "Visura (DE)",
+    "body": "In questa area è possibile consultare i propri dati anagrafici nonchè quelli del nucleo familiare e richiedere autocertificazioni. (DE)",
+    "footerItem": "Consulta i tuoi dati anagrafici (DE)"
+  },
+  "visura_tng": {
+    "title": "Visura (DE)",
+    "body": "In questa area è possibile consultare i propri dati anagrafici nonchè quelli del nucleo familiare e richiedere autocertificazioni. (DE)",
+    "footerItem": "Consulta i tuoi dati anagrafici (DE)"
+  },
+  "profilo": {
+    "title": "Profilo utente (DE)",
+    "body": "In questa area è possibile indicare i propri recapiti; aggiungere i recapiti consente di ricevere certificati e notifiche sul proprio indirizzo Email. (DE)",
+    "footerItem": "Inserisci i tuoi recapiti (DE)"
+  },
+  "comunicazioni": {
+    "title": "Rettifica dati (DE)",
+    "body": "In questa area è possibile inviare una richiesta di rettifica di uno o più dati anagrafici che non coinvolgono altri soggetti. (DE)",
+    "footerItem": "Richiedi la modifica dei tuoi dati (DE)"
+  },
+  "certificati": {
+    "title": "Certificazione (DE)",
+    "body": "In questa area è possibile richiedere uno o più certificati per sè stesso o per un componente del nucleo familiare. (DE)",
+    "footerItem": "Richiedi un certificato (DE)"
+  },
+  "cert_tng": {       
+    "title": "Certificazione (DE)",
+    "body": "In questa area è possibile richiedere uno o più certificati per s&eacute; stesso o per un componente del nucleo familiare o per altro soggetto. (DE)",
+    "footerItem": "Richiedi un certificato (DE)"
+  },
+  "residenza": {
+    "title": "Residenza (DE)",
+    "body": "In questa area è possibile dichiarare un cambio di residenza all'interno del Comune o con provenienza da un altro Comune. (DE)",
+    "footerItem": "Richiedi un cambio di residenza (DE)"
+  }
+}

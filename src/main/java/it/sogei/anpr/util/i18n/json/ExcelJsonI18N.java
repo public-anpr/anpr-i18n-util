@@ -38,7 +38,7 @@ public class ExcelJsonI18N {
 	 * 
 	 * @return il foglio creato
 	 */
-	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader jsonTesti, Reader jsonLabel ) {
+	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader jsonTesti, Reader jsonLabel, Reader jsonTradOld, String lang) {
 		Sheet sheet = workbook.createSheet( nomeSheet );
 		logger.info( "generazione sheet : {}", nomeSheet );
 		int riga = 0;
@@ -51,18 +51,32 @@ public class ExcelJsonI18N {
 		cell3.setCellValue("TESTO");
 		Cell cell4 = rigaEtichette.createCell(3);
 		cell4.setCellValue("TRADUZIONE");
+		if (StringUtils.isNotEmpty(lang)) {
+			Cell cell5 = rigaEtichette.createCell(4);
+			cell5.setCellValue("TRADUZIONE PRECEDENTE");
+		}
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			LinkedHashMap<String,?> mappaLable = mapper.readValue(jsonLabel, LinkedHashMap.class);
 			LinkedHashMap<String,?> mappaTesti = mapper.readValue(jsonTesti, LinkedHashMap.class);
 			Set<String> keys = mappaTesti.keySet();
  			riga++;
-			riga = this.scorriMap(mappaTesti, mappaLable,riga,sheet,"");
+ 			if (StringUtils.isNotEmpty(lang) && jsonTradOld != null) {
+ 				LinkedHashMap<String,?> mappaTradOld = mapper.readValue(jsonTradOld, LinkedHashMap.class);
+ 				riga = this.scorriMap(mappaTesti, mappaLable, mappaTradOld, riga, sheet, "");
+ 			} else {
+ 				riga = this.scorriMap(mappaTesti, mappaLable,riga,sheet,"");
+ 			}
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		return sheet;
 	}
+	
+	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader jsonTesti, Reader jsonLabel) {
+		return this.createSheet(workbook, nomeSheet, jsonTesti, jsonLabel, null, null);
+	}
+
 	
 	private int scorriMap(Map mappaText,Map mappaLabel,int rowNum, Sheet sheet, String keyPrecedente) {
 		Set<String> keys = mappaText.keySet();
@@ -105,6 +119,56 @@ public class ExcelJsonI18N {
 		}
 		return rowNum;
 	}
+	
+	private int scorriMap(Map mappaText,Map mappaLabel, Map mappaTradOld,int rowNum, Sheet sheet, String keyPrecedente) {
+		Set<String> keys = mappaText.keySet();
+		for (String k:keys) {
+			
+			if (mappaText.get(k) instanceof Map) {
+				keyPrecedente = k+".";
+				rowNum = this.scorriMap((Map)mappaText.get(k),(Map)mappaLabel.get(k),(Map)mappaTradOld.get(k), rowNum, sheet,keyPrecedente);
+			} else if (mappaText.get(k) instanceof ArrayList<?>) {
+				ArrayList<String> listText = (ArrayList<String>) mappaText.get(k);
+				ArrayList<String> listLabel = (ArrayList<String>) mappaLabel.get(k);
+				ArrayList<String> listTradOld = (ArrayList<String>) mappaTradOld.get(k);
+				for (int i=0; i< listText.size(); i++) {
+					Row row = sheet.createRow(rowNum);
+					Cell cellaPath = row.createCell(0);
+					if (StringUtils.isEmpty(keyPrecedente)) {
+						cellaPath.setCellValue(k);
+					} else {
+						cellaPath.setCellValue(keyPrecedente+k);
+					}
+					Cell cellaLabel = row.createCell(1);
+					cellaLabel.setCellValue(listLabel.get(i));
+					Cell cellaText = row.createCell(4);
+					cellaText.setCellValue(listTradOld.get(i));
+					Cell cellaTradOld = row.createCell(4);
+					cellaTradOld.setCellValue(listTradOld.get(i));
+					rowNum++;
+				}
+			} else {
+				Row row = sheet.createRow(rowNum);
+				Cell cellaPath = row.createCell(0);
+				if (StringUtils.isEmpty(keyPrecedente)) {
+					cellaPath.setCellValue(k);
+				} else {
+					cellaPath.setCellValue(keyPrecedente+k);
+				}
+				Cell cellaLabel = row.createCell(1);
+				cellaLabel.setCellValue((String)mappaLabel.get(k));
+				Cell cellaText = row.createCell(2);
+				cellaText.setCellValue((String)mappaText.get(k));
+				Cell cellaTradOld = row.createCell(4);
+				cellaTradOld.setCellValue((String)mappaTradOld.get(k));
+				rowNum++;
+			}
+		}
+		return rowNum;
+	}
+	
+	
+	
 
 	public Sheet createSummary( Workbook workbook, Reader jsonSummary ) {
 		String nomeSheet = "summary";

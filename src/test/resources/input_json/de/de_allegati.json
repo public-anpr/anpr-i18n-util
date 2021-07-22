@@ -1,0 +1,18 @@
+{
+  "allegati": {
+    "fields-nuovi-allegati-riga-1": "Verranno accettati file in formato pdf, jpg, png. (DE)",
+    "fields-nuovi-allegati-riga-2": "La dimensione massima consentita per gli allegati è 1 Mb. (DE)",
+    "fields-nuovi-allegati-riga-3": "I campi indicati con * sono obbligatori (DE)",
+    "submit": "Allega (DE)",
+    "reset": "Annulla (DE)",
+    "no-allegati": "Nessun documento allegato (DE)",
+    "add-1": "Aggiungi (DE)",
+    "add-2": "un allegato (DE)"
+  },
+  "allegato": {
+
+  },
+  "additional": {
+
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "dataDa": "Data di apertura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (DE)",
+  "dataA": "Data di chiusura <sr-only>{{formato }}</sr-only> (gg/mm/aaaa) (DE)",
+  "ricercaBody": {
+    "inputLabel": "Codice pratica (DE)",
+    "cerca": "Cerca (DE)",
+    "richiesteInserite": "dichiarazioni inserite (DE)"
+  },
+  "richiesteTHead": {
+    "descrizione": "Descrizione (DE)",
+    "codice": "Codice (DE)",
+    "dataApertura": "Data Apertura (DE)",
+    "dataChiusura": "Data Chiusura (DE)",
+    "stato": "Stato (DE)",
+    "azioni": "Azioni (DE)"
+  },
+  "titleCambioResidenza": "Inserisci una dichiarazione (DE)",
+  "titleGuida": "Guida alla compilazione di una dichiarazione (DE)",
+  "titleRicerca": "Dichiarazioni inserite (DE)",
+  "eliminaBodyModal": {
+    "question": "Vuoi eliminare la richiesta numero (DE)",
+    "elimina": "Elimina (DE)",
+    "annulla": "Annulla (DE)"
+  },
+  "richiesteTBody": {
+    "modificaRichiesta": "Modifica la richiesta numero (DE)",
+    "eliminaBozza": "Elimina la bozza numero (DE)",
+    "dettaglioRichiesta": "Dettaglio della richiesta numero (DE)",
+    "scaricaPdf": "Scarica in pdf la richiesta numero (DE)"
+  },
+  "nuovaRichiesta": {
+    "message": "Per inserire una nuova richiesta di rettifica puoi consultare la  (DE)",
+    "guida": "Guida alla compilazione. <sr-only> {{novaFinestra}}</sr-only> (DE)",
+    "registraDichiarazione": "Registra una dichiarazione<sr-only> {{cambio}}</sr-only>"
+  },
+  "descrizione": "In questa sezione è possibile dichiarare una nuova residenza o completare una dichiarazione precedentemente salvata in bozza. (DE)",
+  "title": "Residenza (DE)",
+  "tableCaptionDichiarazioniInserite": "Elenco dichiarazioni inserite (DE)",
+  "nessunaDichiarazioneTrovata": "Nessuna dichiarazione corrispondente ai criteri di ricerca selezionati. (DE)"
+}

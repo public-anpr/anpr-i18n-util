@@ -1,0 +1,241 @@
+{
+  "downloadAutocertificazione": {
+    "noteCartaIndentitaError": "Il campo note può contenere solamente i seguenti caratteri: a-z, A-Z, À-ž, 0-9 ' - . , ( ) (DE)",
+    "messageNessunaModifica": "Se non si effettua alcuna modifica alla seguente selezione dei dati, l’autocertificazione li conterrà tutti. (DE)",
+    "messageComunicatoComune": "Se il comune ha comunicato gli estremi del documento, saranno precompilati (o gli estremi della carta identità o gli estremi del passaporto) altrimenti sarà possibile inserirli autonomamente nella stampa dell'autocertificazione. In questo caso e' possibile inserire anche solo uno degli estremi del documento (o il numero della carta identità o il numero passaporto). (DE)",
+    "attenzioneEntrambeTipologie": "Attenzione: nel caso in cui siano presenti entrambe le tipologie di documento (carta di identità e passaporto), nella stampa dell' autocertificazione avrà precedenza la carta di identità. (DE)",
+    "labelCI": "Carta di identità numero (DE)",
+    "labelPassaporto": "Passaporto numero (DE)",
+    "labelNote": "Note (DE)",
+    "attenzioneNessunDatoSelezionato": "Attenzione: nessun dato selezionato; seleziona almeno un dato da stampare nell'autocertificazione tra Nascita,\n          Stato civile, Cittadinanza, Famiglia anagrafica, Residenza, Esistenza in vita (DE)"
+  },
+  "cartaIdentita": {
+    "numero": "Numero: (DE)",
+    "tipo": "Tipo: (DE)",
+    "validaEspatrio": "Valida per espatrio: (DE)",
+    "dataScadenza": "Data scadenza: (DE)",
+    "comuneRilascio": "Comune rilascio: (DE)",
+    "consolatoRilascio": "Consolato rilascio: (DE)"
+  },
+  "cittadinanza": {
+    "title": "Cittadinanza: (DE)"
+  },
+  "convivenza": {
+    "contrattoStipula": {
+      "dataEvento": "Data evento: (DE)",
+      "luogoEvento": "Luogo evento: (DE)"
+    },
+    "convivente": {
+      "title": "Convivente con (DE)",
+      "cf": "Codice fiscale: (DE)",
+      "dataNascita": "Data nascita: (DE)",
+      "sesso": "Sesso: (DE)",
+      "luogoNascita": "Luogo di nascita: (DE)",
+      "provinciaConteaNascita": "Provincia/Contea di nascita: (DE)",
+      "codiceComunale": "Codice identificativo Comunale: (DE)",
+      "codiceANPR": "Codice identificativo ANPR: (DE)"
+    },
+    "contrattoStipulaContratto": {
+      "title": "Stipula Contratto (DE)",
+      "data": "Data costituzione convivenza: (DE)",
+      "dataDocumento": "Data stipula contratto: (DE)",
+      "dataNotifica": "Data notifica contratto al comune: (DE)",
+      "comuneRegistrazione": "Comune di registrazione: (DE)",
+      "localitaRegistrazione": "Località di registrazione: (DE)",
+      "protocollo": "Protocollo: (DE)",
+      "professionista": "Professionista: (DE)"
+    }
+  },
+  "famigliaAnag": {
+    "getNomeCognome": {
+      "senzaNome": "SENZA NOME (DE)",
+      "senzaCognome": "SENZA COGNOME (DE)"
+    },
+    "getAccordionList": {
+      "cf": "Codice fiscale: (DE)",
+      "sesso": "Sesso: (DE)",
+      "dataNascita": "Data nascita: (DE)",
+      "residenza": "Residenza: (DE)",
+      "parentela": "Relazione di parentela/legame: (DE)"
+    },
+    "famiglia": {
+      "familiaAire": "Famiglia anagrafica AIRE: (DE)",
+      "codiceANPR": "Codice identificativo ANPR: (DE)",
+      "dataOrigineFamiglia": "Data origine famiglia: (DE)",
+      "denominazioneConvivenza": "Denominazione convivenza: (DE)"
+    },
+    "legameSoggetto": {
+      "dataIngresso": "Data ingresso: (DE)",
+      "parentela": "Relazione di parentela/legame: (DE)"
+    },
+    "componenti": {
+      "elencoComponenti": "Elenco componenti (DE)"
+    }
+  },
+  "generalita": {
+    "atto": "Atto: (DE)",
+    "comuneRegistrazione": "Comune di registrazione: (DE)",
+    "serie": "Serie: (DE)",
+    "parte": "Parte: (DE)",
+    "anno": "Anno: (DE)",
+    "volume": "Volume: (DE)",
+    "ufficioMunicipio": "Ufficio/Municipio: (DE)",
+    "dataNascita": "Data nascita: (DE)",
+    "sesso": "Sesso: (DE)",
+    "luogoNascita": "Luogo di nascita: (DE)",
+    "provinciaNascita": "Provincia/Contea di nascita: (DE)",
+    "codiceComunale": "Codice identificativo Comunale: (DE)",
+    "codiceANPR": "Codice identificativo ANPR: (DE)",
+    "soggettoAire": "Soggetto AIRE: (DE)"
+  },
+  "matrimonio": {
+    "getNomeCognome": {
+      "senzaNome": "SENZA NOME (DE)",
+      "senzaCognome": "SENZA COGNOME (DE)"
+    },
+    "getAccordionListMatrimonio": {
+      "coniugatoCon": "Coniugato con (DE)",
+      "coniugataCon": "Coniugata con (DE)",
+      "cf": "Codice fiscale: (DE)",
+      "sesso": "Sesso: (DE)",
+      "dataNascita": "Data nascita: (DE)",
+      "luogoNascita": "Luogo di nascita: (DE)",
+      "provinciaConteaNascita": "Provincia/Contea di nascita: (DE)",
+      "codiceComunale": "Codice identificativo Comunale: (DE)",
+      "codiceANPR": "Codice identificativo ANPR: (DE)",
+      "soggettoAire": "Soggetto AIRE:"
+    },
+    "getAccordionListVedovanza": {
+      "title": "Vedovanza (DE)",
+      "dataDecesso": "Data di decesso del coniuge: (DE)",
+      "comune": "Comune: (DE)",
+      "localita": "Localita: (DE)",
+      "descStato": "Stato estero: (DE)",
+      "descLocalita": "Localita estera: (DE)",
+      "provinciaContea": "Provincia/Contea: (DE)",
+      "luogoEccezionale": "Luogo eccezionale: (DE)",
+      "numeroAttoDecesso": "Atto di decesso del coniuge n. (DE)",
+      "trascritto": "Trascritto: (DE)",
+      "comuneRegistrazione": "Comune di registrazione: (DE)",
+      "localitaRegistrazione": "Località di registrazione: (DE)",
+      "serie": "Serie: (DE)",
+      "parte": "Parte: (DE)",
+      "anno": "Anno: (DE)",
+      "volume": "Volume: (DE)",
+      "ufficioMunicipio": "Ufficio/Municipio: (DE)"
+    },
+    "getAccordionListAtto": {
+      "numeroAttoMatrimonio": "Atto di matrimonio n. (DE)",
+      "comuneRegistrazione": "Comune di registrazione: (DE)",
+      "localitaRegistrazione": "Località di registrazione: (DE)",
+      "serie": "Serie: (DE)",
+      "parte": "Parte: (DE)",
+      "anno": "Anno: (DE)",
+      "volume": "Volume: (DE)",
+      "ufficioMunicipio": "Ufficio/Municipio: (DE)"
+    },
+    "getAccordionListAnnullamentoMatrimonio": {
+      "title": "Sentenza cessazione/annullamento matrimonio (DE)",
+      "dataSentenza": "Data della sentenza: (DE)",
+      "numeroSentenza": "Numero sentenza: (DE)",
+      "numeroAtto": "Atto n. (DE)",
+      "comuneRegistrazione": "Comune di registrazione: (DE)",
+      "localitaRegistrazione": "Località di registrazione: (DE)",
+      "serie": "Serie: (DE)",
+      "parte": "Parte: (DE)",
+      "anno": "Anno: (DE)",
+      "volume": "Volume: (DE)",
+      "ufficioMunicipio": "Ufficio/Municipio: (DE)"
+    },
+    "dataEvento": "Data evento: (DE)",
+    "luogoEvento": "Luogo evento: (DE)",
+    "tipoCessazione": "Tipo cessazione:"
+  },
+  "permessoSoggiorno": {
+    "numero": "Numero: (DE)",
+    "dataRilascio": "Data rilascio: (DE)",
+    "tipo": "Tipo: (DE)",
+    "note": "Note: (DE)",
+    "dataScadenza": "Data scadenza: (DE)",
+    "questuraRilascio": "Questura rilascio: (DE)",
+    "comuneRilascio": "Comune rilascio: (DE)",
+    "numeroPassaporto": "Numero passaporto: (DE)"
+  },
+  "residenza": {
+    "dataDecorrenza": "Data decorrenza: (DE)",
+    "cap": "CAP: (DE)",
+    "frazione": "Frazione: (DE)",
+    "indirizzo": "Indirizzo: (DE)",
+    "civico": "Civico: (DE)",
+    "metrico": "Metrico: (DE)",
+    "progSNC": "Progressivo SNC: (DE)",
+    "lettera": "Lettera: (DE)",
+    "esponente1": "Esponente 1: (DE)",
+    "colore": "Colore: (DE)",
+    "corte": "Corte: (DE)",
+    "scala": "Scala: (DE)",
+    "interno1": "Interno 1: (DE)",
+    "espInterno1": "Esponente interno 1: (DE)",
+    "interno2": "Interno 2: (DE)",
+    "espInterno2": "Esponente interno 2: (DE)",
+    "scalaEsterna": "Scala esterna: (DE)",
+    "isolato": "Isolato: (DE)",
+    "localitaEstera": {
+      "cap": "CAP: (DE)",
+      "provinciaContea": "Provincia/contea: (DE)",
+      "localita": "Località/città: (DE)",
+      "indirizzo": "Indirizzo: (DE)",
+      "civico": "Numero civico: (DE)",
+      "consolato": "Consolato di riferimento: (DE)"
+    }
+  },
+  "statoCivile": {
+    "statoCivile": "Stato civile: (DE)"
+  },
+  "unioneCivile": {
+    "dataEvento": "Data evento: (DE)",
+    "luogoEvento": "Luogo evento: (DE)",
+    "unitoCivilmente": {
+      "unitoCivilmente": "Unito civilmente con (DE)",
+      "cf": "Codice fiscale: (DE)",
+      "dataNascita": "Data nascita: (DE)",
+      "sesso": "Sesso: (DE)",
+      "luogoNascita": "Luogo di nascita: (DE)",
+      "provinciaConteaNascita": "Provincia/Contea di nascita: (DE)",
+      "codiceANPR": "Codice identificativo ANPR: (DE)"
+    },
+    "scioglimento": {
+      "motivoScioglimento": "Motivo scioglimento: (DE)",
+      "dataSentenza": "Data sentenza scioglimento: (DE)",
+      "numeroSentenza": "Numero sentenza: (DE)",
+      "comuneRegistrazione": "Comune di registrazione: (DE)",
+      "numeroAttoScioglimento": "Atto scioglimento n. (DE)",
+      "serie": "Serie: (DE)",
+      "parte": "Parte: (DE)",
+      "anno": "Anno: (DE)",
+      "volume": "Volume: (DE)"
+    }
+  },
+  "visura": {
+    "autocertificazione": "Autocertificazione (DE)",
+    "title": "Seleziona quali dati vuoi stampare nell'autocertificazione. (DE)",
+    "buttonConferma": "Conferma (DE)",
+    "buttonAnnulla": "Annulla (DE)",
+    "stampaAutocertificazione": "Stampa autocertificazione (DE)",
+    "textLink": "Se riscontri incongruenze nei tuoi dati anagrafici, puoi procedere ad una  (DE)",
+    "linkRettifica": " richiesta di rettifica. (DE)",
+    "tabs": {
+      "generalita": "Generalità (DE)",
+      "statoCivile": "Stato civile (DE)",
+      "cittadinanza": "Cittadinanza (DE)",
+      "cartaIdentita": "Carta identità (DE)",
+      "famiglia": "Famiglia/convivenza (DE)",
+      "matrimonio": "Matrimonio (DE)",
+      "unioneCivile": "Unione civile (DE)",
+      "contrattoConvivenza": "Contratto di convivenza (DE)",
+      "permessoSoggiorno": "Permesso di soggiorno (DE)",
+      "residenza": "Residenza/altri recapiti (DE)"
+    },
+    "buttonVisura": "Visura (DE)"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "errorMessage": {
+    "email": "Email in formato non valido. (DE)",
+    "pec": "Email PEC in formato non valido. (DE)",
+    "cellulare": "Cellulare in formato non valido. (DE)",
+    "telefono": "Telefono fisso in formato non valido. (DE)"
+  },
+  "infoMessage": "In questa sezione è possibile inserire i propri recapiti Email, Email PEC, Cellulare e Numero fisso.I recapiti sono utili per ricevere notifiche automatiche circa le richieste inviate al comune, ma non sono obbligatori. (DE)",
+  "warningMessage": "Attenzione: l'Email PEC non corrisponde al proprio domicilio digitale ma è valida soltanto in questa area per riceve notifiche delle pratiche inviate. (DE)",
+  "informativa": {
+    "guidaTextDescription": "I recapiti sono utili per ricevere notifiche automatiche circa le richieste inviate al comune, ma non sono obbligatori. (DE)",
+    "guidaTextDescriptionBR": "Per saperne di più, (DE)",
+    "guida": "consulta la guida<sr-only>{{newWindow}}</sr-only> (DE)"
+  },
+  "prepend": {
+    "emailValidata": "Email validata (DE)",
+    "emailNonValidata": "Email non validata"
+  },
+  "prepend2": {
+    "pecValidata": "Email PEC validata (DE)",
+    "pecNonValidata": "Email PEC non validata (DE)"
+  },
+  "append": "Email per ricevere notifiche (DE)",
+  "append2": "Email PEC per ricevere notifiche. Non corrisponde al domicilio digitale (DE)",
+  "infoDomicilioSpeciale": "Compilando il campo PEC nella tua scheda ANPR hai la possibilità di eleggere un domicilio speciale digitale.\nQuesto significa che tutte le comunicazioni da parte di ANPR e degli Enti che accedono alla base dati di ANPR (ad es. il tuo comune) potranno essere fatte in modalità digitale e con pieno valore legale.\nSe attivi il domicilio speciale, ricordati di controllare la tua casella PEC e di comunicare prontamente eventuali variazioni, accedendo alla tua area riservata.\nTi ricordiamo che, una volta eletto validamente il domicilio speciale, non potrai opporre eccezioni relative alla forma e alla data della spedizione e del ricevimento delle comunicazioni elettroniche ivi indirizzate. (DE)",
+  "vuoiSaperneDiPiu": "Vuoi saperne di più ? (DE)",
+  "pecComeDomicilioDigitale": "Dichiaro di voler eleggere la PEC come domicilio speciale per tutte le comunicazioni di ANPR e degli Enti preposti. (DE)",
+  "confermaRecapiti": "Conferma <sr-only>{{recapiti}}</sr-only (DE)",
+  "title": "Profilo utente (DE)",
+  "cf": "Codice fiscale: (DE)",
+  "dataNascita": "Data di nascita: (DE)"
+}

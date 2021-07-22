@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.xmlbeans.impl.common.ReaderInputStream;
+import org.fugerit.java.core.lang.helpers.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +35,7 @@ public class ExcelPropsI18N {
 	 * 
 	 * @return il foglio creato
 	 */
-	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader propTesti, Reader propEtichette )  {
+	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader propTesti, Reader propEtichette, Reader propTradOld, String lang )  {
 		Sheet sheet = workbook.createSheet( nomeSheet );
 		logger.info( "generazione sheet : {}", nomeSheet );
 		int rowNum = 0;
@@ -47,14 +48,22 @@ public class ExcelPropsI18N {
 		cell3.setCellValue("TESTO");
 		Cell cell4 = rigaEtichette.createCell(3);
 		cell4.setCellValue("TRADUZIONE");
+		if (StringUtils.isNotEmpty(lang)) {
+			Cell cell5 = rigaEtichette.createCell(4);
+			cell5.setCellValue("TRADUZIONE PRECEDENTE");
+		}
+
 		rowNum++;
 		try {
 			SortedProperties propText = new  SortedProperties();
 			propText.loadFromXML(new ReaderInputStream(propTesti, "UTF-8"));
 			SortedProperties propLabel = new  SortedProperties();
 			propLabel.loadFromXML(new ReaderInputStream(propEtichette, "UTF-8"));
+			SortedProperties propTrad = new  SortedProperties();
+			if (propTradOld != null && StringUtils.isNotEmpty(lang)) {
+				propTrad.loadFromXML(new ReaderInputStream(propTradOld, "UTF-8"));
+			}
 			Enumeration<?> keySet = propText.propertyNames();
-			
 			while (keySet.hasMoreElements()) {
 				String key = (String) keySet.nextElement();
 				Row row = sheet.createRow(rowNum);
@@ -64,6 +73,11 @@ public class ExcelPropsI18N {
 				cellaLabel.setCellValue(propLabel.getProperty(key));
 				Cell cellaText = row.createCell(2);
 				cellaText.setCellValue(propText.getProperty(key));
+				if (StringUtils.isNotEmpty(lang) && propTradOld != null) {
+					Cell cellaTradOld = row.createCell(4);
+					cellaTradOld.setCellValue(propTrad.getProperty(key));
+				}
+
 				rowNum++;
 			}
 		} catch (IOException e) {
@@ -71,6 +85,10 @@ public class ExcelPropsI18N {
 		}
 		return sheet;
 	}
+	
+	public Sheet createSheet( Workbook workbook, String nomeSheet, Reader propTesti, Reader propEtichette )  {
+		return this.createSheet(workbook, nomeSheet, propTesti, propEtichette, null, null);
+	}	
 	
 	public Sheet createSummary( Workbook workbook, Reader prop ) {
 		String nomeSheet = "summary";

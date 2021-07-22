@@ -12,7 +12,7 @@ public class TestExcel_2_File_I18N {
 	
 	private final static String INPUT_XLSX_PATH_JSON = "target/traduzioni_json.xlsx";
 	private final static String INPUT_XLSX_PATH_PROPS = "target/traduzioni_props.xlsx";
-	private final static Logger logger = LoggerFactory.getLogger( TestExcelJsonI18N.class );
+	private final static Logger logger = LoggerFactory.getLogger( Test_GenerateExcel_I18N.class );
 
 	
 	@Test

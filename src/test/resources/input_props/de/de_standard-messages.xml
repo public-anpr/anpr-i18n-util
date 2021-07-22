@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  	<entry key="successo.emissione.cert.email">Richiesta emissione certificato tramite email riuscita (DE)</entry> 
+  	<entry key="warning.accesso.negato">Tentativo di accesso a richiesta {0} di un altro utente {1} (DE)</entry> 
+  	<entry key="warning.request.forgery">Tentativo di request forgery per la richiesta id = {0} (DE)</entry> 
+  	<entry key="email.rettifica.dati.subject">Servizi al cittadino - Rettifica dati (DE)</entry> 
+  	<entry key="email.verifica.utente.subject">ANPR - Servizi al cittadino - Conferma email di contatto (DE)</entry> 
+  	<entry key="email.verifica.utente.link">Per verificare il contatto clicca su : Clicca sul link "+{0}+"open/verificaEmail?key="+{1} (DE)</entry> 
+  	<entry key="email.certificazione.subject">Servizi al cittadino - certificazione (DE)</entry> 
+  	
+</properties>

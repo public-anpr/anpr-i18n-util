@@ -1,0 +1,142 @@
+{
+  "dashboard": {
+    "titPagina": "Certificazione (DE)",
+    "descPagina": "Il servizio consente al cittadino di richiedere il rilascio di un certificato per sé stesso o uno dei componenti della propria famiglia anagrafica. È altresì consentita la richiesta di certificati anagrafici per un soggetto terzo limitatamente alla certificazione di residenza e di stato di famiglia. (DE)",
+    "nuovoCert-title": "Nuovo certificato (DE)",
+    "nuovoCert-label": "Per richiedere un nuovo certificato puoi consultare la (DE)",
+    "nuovoCert-link-guida": "Guida alla richiesta. (DE)",
+    "nuovoCert-hint": ": apre una nuova finestra (DE)",
+    "nuovoCert-link-personale": "Richiedi per te stesso (DE)",
+    "nuovoCert-link-famiglia": "Richiedi per la tua famiglia (DE)",
+    "nuovoCert-link-soggetto": "Richiedi per altro soggetto (DE)"
+  },
+  "famiglia": {
+    "titPagina": "Seleziona soggetto (DE)",
+    "descPagina": "In questa sezione è possibile selezionare la persona per cui si intende richiedere il certificato. (DE)",
+    "componentiHead": {
+      "nome": "Nome (DE)",
+      "cognome": "Cognome (DE)",
+      "legame": "Legame (DE)",
+      "dataNascita": "Data di nascita (DE)",
+      "cf": "Codice fiscale (DE)",
+      "azioni": "Azioni (DE)"
+    },
+    "componentiBody": {
+      "link": "Seleziona (DE)",
+      "text": "Seleziona (DE)"
+    },
+    "componentiTable": {
+      "tableCaption": "Elenco componenti nucleo familiare (DE)"
+    },
+    "famigliaBody": {
+      "data": "Data origine famiglia/convivenza (DE)",
+      "identificativo": "Identificativo scheda attribuito da ANPR (DE)",
+      "denominazioneConvivenza": "Denominazione convivenza (DE)"
+    },
+    "famigliaPanel": {
+      "title": "Famiglia/Convivenza (DE)"
+    }
+  },
+  "richiesta": {
+  },
+  "soggetto": {
+    "titPagina": "Ricerca soggetto intestatario (DE)",
+    "descPagina": " (DE)",
+    "ricercaCF": {
+      "title": "Ricerca per codice fiscale (DE)",
+      "inputLabel": "Codice fiscale (DE)"
+    },
+    "ricercaAnagrafica": {
+      "title": "Ricerca per dati anagrafici (DE)",
+      "cognome": "Cognome (DE)",
+      "nome": "Nome (DE)",
+      "dataNascita": "Data nascita (DE)",
+      "statoNascita": "Stato nascita (DE)",
+      "nomeStatoNascita": "Stato non attribuibile (DE)",
+      "provinciaNascita": "Provincia nascita (DE)",
+      "comuneNascita": "Comune nascita (DE)"
+    },
+    "ricercaForm": {
+      "textCenter": "oppure (DE)",
+      "ricerca": "Ricerca (DE)",
+      "ripulisci": "Ripulisci (DE)"
+    },
+    "resultHead": {
+      "nome": "Nome (DE)",
+      "cognome": "Cognome (DE)",
+      "dataNascita": "Data di nascita (DE)",
+      "cf": "Codice fiscale (DE)"
+    },
+    "resultTable": {
+      "loading": "Caricamento dei dati in corso (DE)",
+      "tableCaption": "Esito della ricerca soggetto intestatario (DE)",
+      "linkCertificato": "Richiedi certificato (DE)",
+      "nullRicerca": "Nessun soggetto trovato (DE)"
+    },
+    "errors": {
+      "codiceFiscale": "Codice fiscale formalmente errato (DE)",
+      "cognome":"Cognome ammette solo lettere e diacritici (DE)",
+      "nome": "Nome ammette solo lettere e diacritici (DE)",
+      "dataNascita":"Data nascita formalmente errato (DE)",
+      "nomeStatoNascita": "Stato non attribuibile contiene caratteri non ammessi (DE)"
+    }
+  },
+  "storico": {
+    "errors": {
+      "intervalloDate": "Intervallo date non valido (DE)",
+      "protocollo": "Protocollo deve essere numerico (DE)",
+      "dataDaFormato": "Data inizio non è nel formato corretto (DE)",
+      "dataDaIntervallo": "Data inizio non è in un intervallo valido (DE)",
+      "dataAFormato": "Data fine non è nel formato corretto (DE)",
+      "dataAIntervallo": "Data fine non è in un intervallo valido (DE)"
+    },
+    "titPagina":"Certificati emessi (DE)",
+    "dataDaLabel": "Data inizio <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (DE)",
+    "dataALabel": "Data fine <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (DE)",
+    "ricercaForm": {
+      "buttonCerca": "Cerca (DE)",
+      "certificato": "certificato (DE)"
+    },
+    "ricercaPanel": {
+      "title": "Ricerca certificati (DE)"
+    },
+    "resultHead": {
+      "tipologia": "Tipologia (DE)",
+      "richiedente": "Richiedente (DE)",
+      "intestatario": "Intestatario (DE)",
+      "protocollo": "Protocollo (DE)",
+      "dataEmissione": "Data emissione (DE)",
+      "azioni": "Azioni (DE)"
+    },
+    "resultBody": {
+      "downloadText": "Scarica in pdf il certificato (DE)"
+    },
+    "resultTable": {
+      "loading": "Caricamento dei dati in corso (DE)",
+      "tableCaption": "Elenco certificati emessi (DE)",
+      "noFound": "Nessun certificato emesso trovato (DE)"
+    }
+  },
+  "form": {
+    "motivoRichiesta": "Motivo richiesta (DE)",
+    "esenzione": "Esenzione (DE)",
+    "bolloVirtuale": "Identificativo marca da bollo (DE)",
+    "richiediCert": "Richiedi certificato (DE)",
+    "guidaRichiesta": "Guida alla richiesta  <sr-only> apre una nuova finestra</sr-only> (DE)",
+    "datiCert": "Dati del certificato (DE)",
+    "anteprima": {
+      "genera": "Genera (DE)",
+      "ateprimaText": " Anteprima (DE)",
+      "certificato": " certificato (DE)"
+    },
+    "download": {
+      "scarica": " Scarica (DE)",
+      "certificato": " certificato (DE)"
+    },
+    "send": {
+      "invia": " Invia (DE)",
+      "recapiti": " certificato ai tuoi recapiti (DE)"
+    },
+    "anteprimaCert": "Anteprima del certificato (DE)"
+  }
+}

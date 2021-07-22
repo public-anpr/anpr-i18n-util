@@ -1,0 +1,41 @@
+{
+  "handleDownloadRichiesta": "pratica (DE)",
+  "downloadButton": "Scarica riepilogo richiesta <sr-only>{{numero}}</sr-only> (DE)",
+  "fieldListIntestatario": {
+    "nome": "Nome (DE)",
+    "cognome": "Cognome (DE)",
+    "cf": "Codice fiscale (DE)",
+    "dataNascita": "Data di nascita (DE)",
+    "luogoNascita": "Luogo di nascita (DE)"
+  },
+  "fieldListRichiedente": {
+    "nome": "Nome (DE)",
+    "cognome": "Cognome (DE)",
+    "cf": "Codice fiscale (DE)",
+    "dataNascita": "Data di nascita (DE)",
+    "luogoNascita": "Luogo di nascita (DE)"
+  },
+  "theadStorico": {
+    "data": "Data di lavorazione (DE)",
+    "stato": "Stato di lavorazione (DE)"
+  },
+  "allegatiTHead": {
+    "nome": "Nome documento allegato (DE)",
+    "descrizione": "Descrizione allegato (DE)",
+    "download": "Download (DE)"
+  },
+  "allegatiTBody": {
+    "tableCaption": "Elenco della documentazione allegata (DE)",
+    "noAllegati": "Non ci sono documenti allegati alla richiesta"
+  },
+  "noNote": "Non ci sono note (DE)",
+  "sospesaTitle": "Integrazione documentazione (DE)",
+  "legendNuovaDoc": "Allega nuova documentazione (DE)",
+  "attenzioneAllegatiCorrotti": "Attenzione: per procedere all'integrazione occorre eliminare tutti i file corrotti e caricare i file corretti. (DE)",
+  "invia": "Invia integrazione (DE)",
+  "integrataTitle": "Integrazione documentazione (DE)",
+  "note": "Note: (DE)",
+  "noNoteAggiunte": "Non sono state aggiunte note (DE)",
+  "titleDettaglio": "Dettaglio richiesta (DE)",
+  "numeroRichiesta": "Dettaglio richiesta N. (DE)"
+}

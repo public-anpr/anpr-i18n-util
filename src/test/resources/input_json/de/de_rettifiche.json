@@ -1,0 +1,87 @@
+{
+  "rettifiche": {
+    "informativa": {
+      "text-1": "Utilizzare il pulsante (DE)",
+      "strong": "Modifica (DE)",
+      "text-2": "per rettificare un dato."
+    },
+    "info": {
+      "title": "Richiesta di rettifica (DE)",
+      "guidaCompilazione": "Guida alla compilazione <sr-only> {{newWindow}}</sr-only>"
+    },
+    "infoResidenza": "è possibile chiedere la modifica del toponimo: ad esempio se troviamo registrato FRETALLI D’ITALIA invece del dato corretto FRATELLI D’ITALIA;\nla normalizzazione degli indirizzi non è oggetto di rettifica: ad esempio se si trova registrato VIA G. GARIBALDI invece di VIA GIUSEPPE GARIBALDI, non si deve richiedere la rettifica. (DE)",
+    "infoResidenzaMsg": "Vuoi saperne di più ? (DE)",
+    "infoGeneralita": "è possibile richiedere la modifica del nome se ad esempio troviamo registrato CECILLIA invece il dato corretto è CECILIA. (DE)",
+    "infoGeneralitaMsg":"Vuoi saperne di più ? (DE)",
+    "infoStatoCivile": "si ricorda che se una persona non ha ancora ricevuto la sentenza di divorzio, risulta ancora coniugata; quindi questa casistica non può essere oggetto di richiesta di rettifica. (DE)",
+    "infoStatoCivileMsg": "Vuoi saperne di più ? (DE)",
+    "messageInfo": {
+      "attenzione": "Attenzione: (DE)",
+      "generalitaCustomInfo": "non è possibile utilizzare questa sezione per modificare i propri dati anagrafici; è possibile solo richiederne la rettifica se erroneamente registrati. (DE)",
+      "statoCivileCustomInfo": "non è possibile utilizzare questa sezione per modificare lo stato civile se non comprovato da apposita documentazione emessa dall'ufficio di Stato Civile. (DE)",
+      "statoCivileCustomInfoAfterBR": "Non è possibile richiedere rettifiche sui dati dello stato civile i cui atti non sono registrati in Italia. (DE)",
+      "residenzaCustomInfo": "non è possibile utilizzare questa sezione per cambi di residenza o cambi di indirizzo; è possibile solo richiedere la rettifica del toponimo se erroneamente registrato. (DE)",
+      "residenzaCustomInfoAfterBR": "La normalizzazione dell'indirizzo non è oggetto della richiesta di rettifica del dato."
+    },
+    "rettificaDati": "Rettifica dati"
+  },
+  "rettificheConsenso": {
+    "title": "Richiesta di rettifica dati per errori materiali (DE)",
+    "text-1": "Il servizio di richiesta di rettifica dati consente di richiedere al proprio comune di residenza la rettifica di presunti <strong>{{strongText}}</strong> riscontrati sui propri dati anagrafici. (DE)",
+    "text-2": "Il servizio <strong>{{strongText}}</strong> essere utilizzato per richiedere il cambio di residenza o per richiedere la modifica dei propri dati anagrafici che comporterebbero tra le altre cose una nuova attribuzione del codice fiscale (es. richiesta di aggiornamento del nome, del cognome, ecc.). (DE)",
+    "text-2AfterBR": "Per richiedere l’aggiornamento dei propri dati anagrafici (nome, cognome, luogo e data di nascita) che compongono il codice fiscale è necessario recarsi presso il proprio comune di residenza. (DE)",
+    "text-3": "È possibile richiedere la correzione <strong>{{strongText}}</strong> di presunti errori materiali o di trascrizione che possono essere comprovati da specifica documentazione (es. documento d’identità, passaporto, atto di nascita, ecc.). (DE)",
+    "consapevolezzaLeggi": "Consapevole che chiunque rilasci dichiarazioni mendaci è punito dalla legge ai sensi del codice penale e delle leggi in materia, ai sensi e per gli effetti degli articoli 75 e 76 del D.P.R n. 445/2000. (DE)",
+    "dichiarazioneResponsabilita": "DICHIARO SOTTO LA MIA PERSONALE RESPONSABILITA’ (DE)",
+    "dichiarazioneVisione": "di aver preso visione dell'informativa riportata nella  (DE)",
+    "linkGuida": "guida alla compilazione di una richiesta di rettifica. <sr-only>{{newWindow}}</sr-only> (DE)",
+    "text-4": "di aver compreso che lo scopo di tale servizio è esclusivamente quello di richiedere la correzione di presunti errori materiali o di trascrizione; (DE)",
+    "text-5": "di non inviare dichiarazioni mendaci; (DE)",
+    "text-6": "di non allegare documentazione non pertinente alla richiesta di rettifica. (DE)",
+    "procedi": "Procedi <sr-only>{{newWindow}}</sr-only> (DE)"
+  },
+  "RettificheModulo": {
+    "descrizione": "In questa sezione è possibile scaricare il modulo di richiesta rettifica; una volta compilato, è possibile completare la richiesta allegando il modulo come documentazione. La pratica può essere salvata in bozza oppure inviata al comune. (DE)",
+    "inviaNuovaRich": "Invia una nuova richiesta (DE)"
+  },
+  "componenti": {
+    "componentiTableHead": {
+      "nome":"Nome (DE)",
+      "cognome": "Cognome (DE)",
+      "legame": "Legame (DE)",
+      "legameRettificato": "LegameRettificato (DE)",
+      "dataNascita": "DataNascita (DE)",
+      "cf": "Codice fiscale (DE)"
+    },
+    "legamiParentela": {
+      "intestatario":"Intestatario Scheda (DE)",
+      "figlio": "Figlio / Figlia (DE)",
+      "altro": "Altro Parente (DE)"
+    },
+    "attenzione": "Attenzione: In questa sezione è possibile richiedere la rettifica dei legami di parentela SOLO se erroneamente registrati. (DE)"
+  },
+  "conferma": {
+    "eliminaBodyModal": {
+      "domanda": "Vuoi eliminare la richiesta numero (DE)",
+      "elimina": "Elimina (DE)",
+      "annulla": "Annulla (DE)"
+    },
+    "informativa": "Dichiaro di voler ricevere le notifiche sullo stato di lavorazione della pratica all'indirizzo (DE)",
+    "validareEmail": "Per inviare la pratica di richiesta di rettifica &egrave; necessario specificare e validare un indirizzo Email nella sezione (DE)",
+    "profiloUtente": "Profilo utente (DE)",
+    "inviaRichiesta": "Invia richiesta (DE)",
+    "salvaBozza": "Salva bozza (DE)",
+    "eliminaRichiesta": "Elimina richiesta (DE)"
+  },
+  "famiglia": {
+
+  },
+  "rettificheField": {
+    "displayModifica": "<sr-only> {{formato}} </sr-only>(gg/mm/aaaa) (DE)",
+    "fieldLabel": "<sr-only> {{formato}} </sr-only>(gg/mm/aaaa) (DE)",
+    "info": "Per qualsiasi incongruenza riscontrata in questa sezione, si prega di rivolgersi allo sportello. (DE)",
+    "selFieldLabel": "Seleziona dato da integrare (DE)",
+    "aggiungi": "Aggiungi (DE)",
+    "caricamento": "Caricamento in corso... (DE)"
+  }
+}

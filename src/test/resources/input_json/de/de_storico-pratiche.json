@@ -1,0 +1,45 @@
+{
+  "checkInterval": {
+    "intervalloNonValido": "Data di chiusura non è in un intervallo valido (DE)"
+  },
+  "onChangeDataDa": {
+    "errorFormato": "Data di apertura non è nel formato corretto (DE)",
+    "errorIntervallo": "Data di apertura non è in un intervallo valido"
+  },
+  "onChangeDataA": {
+    "errorFormato": "Data di apertura non è nel formato corretto (DE)",
+    "errorIntervallo": "Data di apertura non è in un intervallo valido (DE)"
+  },
+  "onChangeCodice": {
+    "codiceDeveEssereNumerico": "Codice richiesta deve essere numerico (DE)"
+  },
+  "eliminaBodyModal": {
+    "question": "Vuoi eliminare la richiesta numero (DE)",
+    "elimina": "Elimina (DE)",
+    "annulla": "Annulla (DE)"
+  },
+  "dataDa": "Data di apertura <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (DE)",
+  "dataA": "Data di chiusura <sr-only>{{formato}}</sr-only> (gg/mm/aaaa) (DE)",
+  "ricercaBody": {
+    "codiceRichiesta": "Codice richiesta (DE)",
+    "cerca": "Cerca <sr-only>{{richiesta}}</sr-only> (DE)"
+  },
+  "richiesteTHead": {
+    "descrizione": "Descrizione (DE)",
+    "codice":"Codice (DE)",
+    "dataApertura": "Data di apertura (DE)",
+    "dataChiusura":"Data di chiusura (DE)",
+    "stato": "Stato (DE)",
+    "azioni": "Azioni (DE)"
+  },
+  "richiesteTBody": {
+    "modificaRichiesta": "Modifica la richiesta numero (DE)",
+    "eliminaBozza": "Elimina la bozza numero (DE)",
+    "dettaglioRichiesta": "Dettaglio della richiesta numero (DE)",
+    "scaricaPdf": "Scarica in pdf la richiesta numero (DE)"
+  },
+  "title": "Storico richieste (DE)",
+  "descrizione": "In questa sezione è possibile consultare le richieste precedentemente inserite. (DE)",
+  "tableCaptionElencoRichieste": "Elenco richieste (DE)",
+  "nessunaRichiestaInserita": "Nessuna richiesta inserita (DE)"
+}

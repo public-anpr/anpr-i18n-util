@@ -1,0 +1,121 @@
+{
+  "cambioResidenza": {
+    "title": "Dichiarazione cambio residenza (DE)",
+    "description-1": "In questa sezione si richiede di specificare se la domanda riguarda il cambio di residenza della famiglia o di alcuni componenti oppure se si tratta di un accorpamento in una famiglia esistente. (DE)",
+    "text-1": "Se si seleziona (DE)",
+    "strong-1": "Nuova Residenza (DE)",
+    "text-1NextStrong": "è possibile effettuare un cambio di residenza dell'intera famiglia o di alcuni componenti; in quest'ultimo caso verrà generata una nuova famiglia. (DE)",
+    "text-2": "Se si seleziona (DE)",
+    "strong-2": "Residenza in famiglia esistente (DE)",
+    "text-2NextStrong": "è possibile effettuare un accorpamento dell'intera famiglia o di alcuni componenti in una famiglia di destinazione già formata; in questo caso la residenza sar&agrave; quella della famiglia di destinazione. (DE)",
+    "descriprion-2": "Nelle successive schermate, in ogni caso sar&agrave; possibile modificare la relazione di parentela dei componenti della famiglia rispetto all'intestatario. (DE)",
+    "RegistraNuovaResidenza": "<sr-only>{{registraText}}</sr-only> Nuova Residenza (DE)",
+    "registraResidenzaFamiglia": "<sr-only>{{registraText}}</sr-only> Residenza in famiglia esistente (DE)"
+  },
+  "registazioneResidenza": {
+    "informativa": "In questa sezione è possibile inviare una dichiarazione di cambio residenza al comune di appartenenza, nelle forme previste dall'ordinamento. Nella sezione <strong>{{riepilogoText}}</strong>, è possibile salvare in bozza la dichiarazione, cancellarla oppure inviarla al comune. (DE)",
+    "title": "Nuova residenza (DE)",
+    "linkGuida": "Guida alla compilazione di una dichiarazione (DE)",
+    "nuovaResidenza": "Nuova residenza (DE)"
+  },
+  "registazioneResidenzaFamiglia": {
+    "informativa": "In questa sezione è possibile inviare una dichiarazione di cambio residenza al comune di appartenenza, nelle forme previste dall'ordinamento. Nella sezione <strong>{{riepilogoText}}</strong>, è possibile salvare in bozza la dichiarazione, cancellarla oppure inviarla al comune. (DE)",
+    "title": "Residenza in famiglia esistente (DE)",
+    "linkGuida": "Guida alla compilazione di una dichiarazione (DE)",
+    "residenzaInFamiglia": "Residenza in famiglia esistente (DE)"
+  },
+  "menu": {
+    "conferma": {
+      "descrizione": "In questa sezione è possibile confermare, cancellare oppure inoltrare la richiesta. (DE)",
+      "inviaRichiesta": "Invia richiesta (DE)",
+      "salvaRichiesta": "Salva richiesta (DE)",
+      "eliminaRichiesta": "Elimina richiesta (DE)"
+    },
+    "famigliaConvivenza": {
+      "labelDataOrigine": "Data di origine famiglia/convivenza (DE)",
+      "labelIdentificativo": "Identificativo scheda attribuito da ANPR (DE)"
+    },
+    "generalita": {
+      "optionListTipologiaDocumento": {
+        "ci": "Carta d'identità (DE)",
+        "patente": "Patente (DE)",
+        "passaporto": "Passaporto (DE)"
+      },
+      "fieldList": {
+        "nome": "Nome (DE)",
+        "cognome": "Cognome (DE)",
+        "cf": "Codice fiscale (DE)",
+        "dataNascita": "Data di nascita (DE)",
+        "identificativo": "Identificativo ANPR (DE)"
+      },
+      "infoDocumentoList": {
+        "tipoDoc": "Tipologia Documento (DE)",
+        "numeroDoc": "Numero documento (DE)",
+        "rilasciatoDa": "Rilasciato da (DE)",
+        "dataRilascio": "Data di rilascio (DE)",
+        "dataScadenza": "Data di scadenza (DE)"
+      }
+    },
+    "residenza": {
+      "fieldList": {
+        "indirizzoAttuale": "Indirizzo attuale (DE)"
+      },
+      "title": "Nuova residenza (DE)",
+      "formLabel": {
+        "provincia": "Provincia di residenza (DE)",
+        "comune": "Comune di residenza (DE)",
+        "localita": "Località (DE)",
+        "cap": "CAP (DE)",
+        "frazione": "Frazione (DE)",
+        "specie": "Specie (DE)",
+        "toponimo": "Toponimo (DE)",
+        "numero": "Numero Civico (DE)",
+        "metrico": "Metrico (DE)"
+      }
+    },
+    "residenzaFamiglia": {
+      "fieldList": {
+        "indirizzoAttuale": "Indirizzo attuale (DE)"
+      },
+      "infoComponenteFamigliaEsistente": {
+        "cf": "Codice Fiscale (DE)",
+        "cognome": "Cognome (DE)",
+        "nome": "Nome (DE)",
+        "dataNascita": "Data di nascita (DE)",
+        "provinciaNascita": "Provincia di nascita (DE)",
+        "comuneNascita": "Comune di nascita (DE)"
+      },
+      "infoResidenzaFamigliaDestinazione": {
+        "provincia": "Provincia di residenza (DE)",
+        "comune": "Comune di residenza (DE)",
+        "localita": "Località (DE)",
+        "cap": "CAP (DE)",
+        "frazione": "Frazione (DE)",
+        "specie": "Specie (DE)",
+        "toponimo": "Toponimo (DE)",
+        "numero": "Numero Civico (DE)",
+        "metrico": "Metrico (DE)"
+      },
+      "title": "Nuova residenza (DE)",
+      "intestatarioFamiglia": "Intestatario della famiglia di destinazione (DE)"
+    },
+    "soggetti": {
+      "componentiTableHead": {
+        "nome":"Nome (DE)",
+        "cognome": "Cognome (DE)",
+        "legame": "Legame (DE)",
+        "dataNascita": "Data nascita (DE)",
+        "cf": "Codice fiscale (DE)",
+        "patente": "Titolare patente (DE)",
+        "possessoAutoveicoli": "Possesso autoveicoli (DE)",
+        "seleziona": "Seleziona (DE)"
+      },
+      "legamiParentela": {
+        "intestatario":"Intestatario Scheda (DE)",
+        "figlio": "Figlio / Figlia (DE)",
+        "altro": "Altro Parente (DE)"
+      },
+      "elencoComponenti": "Elenco componenti nucleo familiare (DE)"
+    }
+  }
+}

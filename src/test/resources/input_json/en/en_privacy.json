@@ -1,0 +1,75 @@
+{
+  "html": [
+    "<title1>Informativa sulla privacy</title1>",
+    "<br/>",
+
+    "<p>Gentile utente,</p>",
+    "<p>dal 25 maggio 2018 si applica il Regolamento UE 2016/679 relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali.</p>",
+    "<p>Con questa informativa il Ministero dell'Interno illustra le modalità di trattamento:</p>",
+    "<p>(i) dei dati personali raccolti e trattati tramite il sito www.anpr.interno.it  (di seguito anche solo il “Sito”),</p>",
+    "<p>(ii) dei dati personali trattati nell'ambito dell'Anagrafe Nazionale della Popolazione Residente (di seguito anche “ANPR”).</p>",
+    "<p>L'informativa vale esclusivamente per il predetto Sito e per ANPR e non è valida per altri siti web eventualmente consultabili tramite i link presenti, di cui il Ministero dell'Interno non è in alcun modo responsabile.</p>",
+
+    "<title2>Titolare, Responsabile per la protezione dei dati personali e responsabile del trattamento</title2>",
+    "<p>Titolare del trattamento dei dati personali è il Ministero dell'Interno - Dipartimento per gli affari interni e territoriali, Piazza del Viminale, 1, 00184 Roma - Italia, numero di telefono 39 06 465.27751, indirizzo di posta elettronica certificata servizidemografici.prot@pec.interno.it.</p>",
+    "<p>I dati di contatto del Responsabile per la Protezione dei Dati Personali sono:</p>",
+    "<ulist>",
+    "  <item-list>indirizzo e-mail: responsabileprotezionedati@interno.it</item-list>",
+    "  <item-list>indirizzo posta elettronica certificata: rdp@pec.interno.it</item-list>",
+    "  <item-list>recapito telefonico, numero centralino 06 4651.</item-list>",
+    "</ulist>",
+    "<p>Responsabile del trattamento è Sogei S.p.A.</p>",
+    "<p>Il Sindaco del Comune di residenza è titolare del trattamento dei dati di propria competenza, limitatamente alla registrazione dei dati stessi: dovrà pertanto rivolgersi al Suo comune nel caso in cui le Sue informazioni risultino inesatte.</p>",
+
+    "<title2>Base giuridica</title2>",
+    "<p>La base giuridica, vista l'esecuzione dei compiti di interesse pubblico o comunque connessi all'esercizio dei propri pubblici poteri del Titolare Ministero dell'interno, è costituita dall'art. 62 del Codice dell'amministrazione digitale (D.Lgs. n. 82/2005) e dei Decreti della Presidenza del Consiglio dei Ministri emanati ai sensi del comma 6 del medesimo articolo 62, concernenti l'attuazione e il funzionamento di ANPR, oltre al DPR 223/1989 recante il regolamento anagrafico.</p>",
+
+    "<title2>Tipologia di dati, modalità e finalità del trattamento</title2>",
+    "<title2a>(i) Dati trattati tramite il Sito</title2a>",
+    "<p>Alcuni dati vengono raccolti automaticamente al momento del Suo accesso al Sito. Il conferimento dei dati personali forniti volontariamente dall'utente è facoltativo, ma 'l'eventuale rifiuto di conferirli comporta l'impossibilità di fruire dei servizi richiesti.</p>",
+    "<p>Il dato “indirizzo di posta elettronica” da fornire nella sezione “Profilo utente” è richiesto obbligatoriamente per fruire dei Servizi che prevedono l’invio di comunicazioni riferite al procedimento amministrativo da parte del comune o da parte del sistema ANPR come ad esempio il Servizio di rettifica.</p>",
+    "<p>Il dato “indirizzo di posta elettronica” sarà conservato dal sistema ANPR sino a quando il cittadino non decida di rimuoverlo dalla sezione “Profilo utente”.</p>",
+
+    "<title3>Dati di navigazione</title3>",
+    "<p>I sistemi informatici e le procedure software preposte al funzionamento di questo Sito acquisiscono, nel corso del loro normale esercizio, alcuni dati personali la cui trasmissione è implicita nell'uso dei protocolli di comunicazione di Internet.</p>",
+    "<p>In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer e dei terminali utilizzati dagli utenti, gli indirizzi in notazione URI/URL (Uniform Resource Identifier/Locator) delle risorse richieste, l'orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, il codice numerico indicante lo stato della risposta data dal server (buon fine, errore, ecc.) ed altri parametri relativi al sistema operativo e all'ambiente informatico dell'utente.</p>",
+    "<p>Tali dati, necessari per la fruizione dei servizi web, vengono anche trattati allo scopo di:</p>",
+    "<ulist>",
+    "  <item-list>ottenere informazioni statistiche sull'uso dei servizi (pagine più visitate, numero di visitatori per fascia oraria o giornaliera, aree geografiche di provenienza, ecc.);</item-list>",
+    "  <item-list>controllare il corretto funzionamento dei servizi offerti.</item-list>",
+    "</ulist>",
+
+    "<title3>Dati raccolti nel momento dell'autenticazione dell'utente per l'accesso ai servizi sul Sito</title3>",
+    "<p>Per accedere ai servizi messi a disposizione sul Sito, l'utente deve autenticarsi tramite uno dei sistemi previsti (es. SPID, CIE e CNS). L'autenticazione tramite i predetti strumenti comporta la raccolta e il trattamento di dati personali, trattati dal Ministero dell'Interno al solo fine di consentire l'accesso ai servizi stessi.</p>",
+
+    "<title3>Cookie e altri sistemi di tracciamento</title3>",
+    "<p>Non viene fatto uso di cookie per la profilazione degli utenti, né vengono impiegati altri metodi di tracciamento.</p>",
+    "<p>Viene invece fatto uso di cookie di sessione (non persistenti) in modo strettamente limitato a quanto necessario per la navigazione sicura ed efficiente dei siti. La memorizzazione dei cookie di sessione nei terminali o nei browser è sotto il controllo dell'utente, laddove sui server, al termine delle sessioni HTTP, informazioni relative ai cookie restano registrate nei log dei servizi, con tempi di conservazione comunque non superiori ai sette giorni al pari degli altri dati di navigazione.</p>",
+
+    "<title2>(ii) Dati anagrafici trattati nell'ambito di ANPR</title2>",
+    "<p>I dati trattati nell'ambito di ANPR sono i dati anagrafici indicati nell'allegato B del DPCM 194/2014.</p>",
+    "<p>In particolare, il Ministero dell'Interno:</p>",
+    "<ulist>",
+    "  <item-list>tratta le informazioni contenute nell'Anagrafe Nazionale della Popolazione residente a fini esclusivamente anagrafici;</item-list>",
+    "  <item-list>assicura che queste informazioni siano inserite o aggiornate esclusivamente dal comune competente;</item-list>",
+    "  <item-list>non prevede processi decisionali automatizzati basati sulle informazioni personali che tratta.</item-list>",
+    "</ulist>",
+    "<p>Per i dati anagrafici contenuti in ANPR non è prevista cancellazione.</p>",
+
+    "<title2>Comunicazione e diffusione dei dati</title2>",
+    "<p>I dati personali raccolti e trattati tramite il Sito, non sono soggetti a comunicazione a terzi né a diffusione salvo per i casi e limitazioni previsti dalla normativa vigenti o da provvedimenti dell'Autorità Giudiziaria.</p>",
+    "<p>Per quanto riguarda i dati anagrafici contenuti in ANPR, il Ministero dell'Interno li comunica (i) alle Pubbliche Amministrazioni e agli Enti che erogano pubblici servizi, ai sensi della normativa vigente e (ii) a Paesi Esteri nei casi previsti da normative specifiche (gestione dell'Anagrafe degli Italiani Residenti all'Estero - AIRE);</p>",
+    "<p>I dati personali potranno essere trattati oltre che dal personale del Ministero dell'Interno allo scopo autorizzato al trattamento, anche da parte di soggetti terzi allo scopo designati responsabili del trattamento ai sensi dell'art. 28 del Regolamento UE 2016/679.</p>",
+
+    "<title2>Diritti degli interessati</title2>",
+    "<p>Il Regolamento (UE) 2016/679 prevede specifiche misure di protezione e sicurezza da applicare e adempimenti da svolgere quando si effettua un trattamento di dati personali e riconosce all'interessato determinati diritti che è possibile esercitare rivolgendosi direttamente al titolare (articoli da 15 a 22).</p>",
+    "<p>Lei, pertanto, ha diritto di ottenere la conferma dell'esistenza o meno dei medesimi dati e/o verificarne l'utilizzo.</p>",
+    "<p>Ha, inoltre, il diritto di chiedere, nelle forme previste dall'ordinamento, la rettifica dei dati personali inesatti e l'integrazione di quelli incompleti; nei casi indicati dal regolamento, fatta salva la speciale disciplina prevista per alcuni trattamenti, può altresì chiedere la cancellazione dei dati, decorsi i previsti termini di conservazione, o la limitazione del trattamento; l'opposizione al trattamento, per motivi connessi alla Sua situazione particolare, è consentita salvo che sussistano motivi legittimi per la prosecuzione del trattamento. Qualora ritenga che il trattamento sia avvenuto in modo non conforme al Regolamento, Lei potrà inoltre rivolgersi all'Autorità di controllo, ai sensi dell'art. 77 del medesimo Regolamento.</p>",
+    "<p>Gli interessati hanno il diritto di ottenere dal Titolare, nei casi previsti, l'accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 15 e ss. del Regolamento).</p>",
+    "<p>Lei può esercitare i Suoi diritti indirizzando la Sua richiesta al Responsabile per la Protezione dei Dati Personali del Ministero dell'Interno, utilizzando i contatti sopra indicati.</p>",
+    "<p>Per eventuali richieste di intervento sui dati quali ad esempio la loro rettifica, è possibile utilizzare la funzione resa disponibile attraverso il Sito oppure, laddove la funzione non sia attiva per la tipologia di dato prescelto, rivolgersi direttamente al Suo comune di residenza.</p>",
+
+    "<title2>Diritto di reclamo</title2>",
+    "<p>Gli interessati che ritengono che il trattamento dei dati personali a loro riferiti avvenga in violazione di quanto previsto dal Regolamento hanno il diritto di proporre reclamo al Garante, come previsto dall'art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).</p>"
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  	<entry key="errore.parametro.mancante">parametri obbligatori mancanti (DE)</entry> 
+  	<entry key="errore.validazione">Errore validazione (DE)</entry> 
+  	<entry key="errore.richiesta.emissione.certficato.per.email.fallita">Richiesta emissione certificato tramite email fallita (DE)</entry> 
+  	<entry key="errore.gestito.generazione.certificato">Altri tipi di errore gestiti nella generazione del certificato (DE)</entry> 
+  	<entry key="errore.email.non.presente">Il soggetto non ha una email impostata (DE)</entry> 
+  	<entry key="errore.parametri.richiesta">Errore nei parametri della richiesta (DE)</entry> 
+  	<entry key="errore.variazione.dati.non.presente">Devi inserire almeno una variazione per le rettifiche dati (DE)</entry> 
+  	<entry key="errore.tipo.pratica.non.gestito">Tipo pratica non gestito (DE)</entry> 
+  	<entry key="errore.invio.pratica.allegato.corrotto">Non è possibile inviare la pratica in quanto contiene file corrotti; vai nella sezione Allegati, elimina tutti i file corrotti e carica i file corretti prima di confermare nuovamente la pratica. (DE)</entry> 
+  	<entry key="errore.richiesta.errata">Richiesta errata (DE)</entry> 
+  	<entry key="errore.sistema.non.disponibile">Sistema non disponibile (DE)</entry> 
+  	<entry key="errore.indirizzo.non.disponibile">Indirizzo non disponibile (DE)</entry> 
+  	<entry key="errore.utente.non.trovato">Utente non trovato (DE)</entry> 
+  	<entry key="errore.codice.fiscale.errato">Codice fiscale incongruente in Agenzia entrate (DE)</entry> 
+  	<entry key="errore.utenza.non.attiva.anpr">L'utenza non risulta attiva in ANPR (DE)</entry> 
+  	<entry key="errore.inserimento.destinatario.avviso">Errore inserimento destintario avviso {0} (DE)</entry> 
+  	<entry key="errore.inserimento.avviso">Errore inserimento avviso {0} (DE)</entry> 
+  	<entry key="errore.registrazione.attivita">ERRORE -> FacadeTracciamento -> regAttivita : Errore nella registrazione dell'attivita (DE)</entry> 
+  	<entry key="errore.invio.email">Non è stato possibile inviare la mail. Provvedere ad inviare la notifica tramite altri canali - ResultCode {0} (DE)</entry> 
+  	<entry key="successo.emissione.cert.email">Richiesta emissione certificato tramite email riuscita (DE)</entry> 
+  	
+</properties>

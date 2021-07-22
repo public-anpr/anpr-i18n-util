@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="esito.000000">Successo (EN)</entry> 
+	<entry key="esito.000001">Parametri obbligatori mancanti (EN)</entry> 
+	<entry key="esito.000999">Errore non gestito (EN)</entry> 
+
+	<entry key="esito.001002">Id accesso non trovato (EN)</entry> 
+	<entry key="esito.001003">Id soggetto non trovato (EN)</entry> 
+	<entry key="esito.001004">Id famiglia non trovato (EN)</entry> 
+	<entry key="esito.001005">Id Comune non trovato (EN)</entry> 
+	<entry key="esito.001006">Tipologia di richiesta non riconosciuta: inserita come ALTRO (EN)</entry> 
+	<entry key="esito.001007">Il testo delle note eccede i 2000 caratteri: e' stato troncato (EN)</entry> 
+	<entry key="esito.001008">Tipo di stato di verifica sconosciuto: convertito in ALTRO (EN)</entry> 
+	<entry key="esito.001009">Errore nella creazione della pratica (EN)</entry> 
+	
+	<entry key="esito.002002">Richiesta gia' eliminata (EN)</entry> 
+	<entry key="esito.002003">Nessuna richiesta trovata (EN)</entry> 
+	<entry key="esito.002004">Errore nell'annullamento della pratica (EN)</entry> 
+	
+	<entry key="esito.003002">Richiesta non trovata  (EN)</entry> 
+	<entry key="esito.003003">Errore nella gestione della Pratica corrispondente (EN)</entry> 
+	<entry key="esito.003004">Sessione (accesso) non trovata (EN)</entry> 
+	<entry key="esito.003005">Tipo di richiesta sconosciuta: convertita in ALTRO (EN)</entry> 
+	<entry key="esito.003006">Campo Note di lunghezza che eccede i 2000 caratteri: e' stato troncato  (EN)</entry> 
+	<entry key="esito.003007">Tipo di stato della richiesta sconosciuta: convertita in ALTRO (EN)</entry> 
+	
+	<entry key="esito.004002">Nessuna richiesta per i parametri impostati (EN)</entry> 
+	<entry key="esito.004003">Tipologia di richiesta non riconosciuta: filtro convertito in ALTRO (EN)</entry> 
+	<entry key="esito.004004">Stato della richiesta non riconosciuto: filtro convertito in ALTRO (EN)</entry> 
+	
+	<entry key="esito.005002">Nessuna richiesta per i parametri impostati (EN)</entry> 
+	<entry key="esito.005003">Uno o entrambi gli identificativi in input non sono presenti in ANPR (EN)</entry> 
+	<entry key="esito.005004">Gli identificativi in input non sono coerenti (EN)</entry> 
+	
+	<entry key="esito.006002">Nessuna richiesta per i parametri impostati (EN)</entry> 
+	<entry key="esito.006003">Parametri di paginazione errati (EN)</entry> 
+	<entry key="esito.006004">La pagina richiesta non ha elementi (EN)</entry> 
+	
+	<entry key="esito.007002">Pratica inesistente (EN)</entry> 
+	
+	<entry key="esito.008002">Nessuna richiesta per i parametri impostati (EN)</entry> 
+	<entry key="esito.008003">Il numero di record selezionati eccede il massimo previsto (EN)</entry> 
+	<entry key="esito.008004">Parametri di paginazione errati  (EN)</entry> 
+	<entry key="esito.008005">La pagina richiesta non ha elementi  (EN)</entry> 
+	
+	<entry key="esito.009002">Pratica inesistente (EN)</entry> 
+	
+	<entry key="esito.010002">Tipo di richiesta non presente nell'elenco censito: verra' usato il tipo ALTRO  (EN)</entry> 
+	<entry key="esito.010003">La pratica non ha fasi di elaborazione associate (EN)</entry> 
+	
+	<entry key="esito.011002">Pratica inesistente (EN)</entry> 
+	<entry key="esito.011003">Pratica gia' eliminata o sospesa (EN)</entry> 
+	
+	<entry key="esito.012002">Stato non presente nell'elenco censito (EN)</entry> 
+	<entry key="esito.012003">Pratica non gestita correttamente: fase di elaborazione assente (EN)</entry> 
+	<entry key="esito.012004">E' obbligatorio compilare il campo note per dare indicazioni al cittadino (EN)</entry> 
+	
+	<entry key="esito.013002">Pratica inesistente (EN)</entry> 
+	
+	<entry key="esito.014002">Nessuna pratica per l'identificativo indicato (EN)</entry> 
+	<entry key="esito.014003">Pratica non associata a richiesta di variazione anagrafica (EN)</entry> 
+	<entry key="esito.014004">Pratica chiusa  (EN)</entry> 
+	<entry key="esito.014005">Campi variati duplicati (EN)</entry> 
+	<entry key="esito.014006">Campi variati gia' registrati (EN)</entry> 
+	<entry key="esito.014007">Valori da impostare incoerenti con il tipo di dato  (EN)</entry> 
+	<entry key="esito.014008">Valori da impostare uguali ai valori gia' presenti (EN)</entry> 
+	
+	<entry key="esito.015002">Nessuna pratica per l'identificativo indicato (EN)</entry> 
+	<entry key="esito.015003">Pratica non associata a richiesta di variazione anagrafica  (EN)</entry> 
+	<entry key="esito.015004">Pratica chiusa (EN)</entry> 
+	<entry key="esito.015005">Valori da impostare incoerenti con il tipo di dato  (EN)</entry> 
+	
+	<entry key="esito.016002">Variazione non sono presente   (EN)</entry> 
+	<entry key="esito.016003">Valori da impostare incoerenti con il tipo di dato  (EN)</entry> 
+	<entry key="esito.016004">Valori da impostare uguali ai valori gia' previsti per la variazione (EN)</entry> 
+	<entry key="esito.016005">Pratica chiusa o sospesa o annullata o conclusa  (EN)</entry> 
+	
+	<entry key="esito.017002">Una o piu' variazioni non sono presenti (EN)</entry> 
+	<entry key="esito.017003">Pratica corrispondente chiusa o sospesa o annullata o conclusa  (EN)</entry> 
+	
+	<entry key="esito.018002">Nessuna pratica per l'identificativo indicato (EN)</entry> 
+	<entry key="esito.018003">Pratica non associata a richiesta di variazione anagrafica (EN)</entry> 
+	
+	<entry key="esito.019002">Recapito non trovato (EN)</entry> 
+	<entry key="esito.019003">Stato di verifica non censito, impostato come ALTRO (EN)</entry> 
+	
+	<entry key="esito.020002">Nessuna pratica per l'identificativo indicato  (EN)</entry> 
+	<entry key="esito.020003">Pratica chiusa  (EN)</entry> 
+	
+	<entry key="esito.021002">Nessun allegato esistente con quell'id (EN)</entry> 
+	<entry key="esito.021003">La pratica collegata all'allegato e' chiusa (EN)</entry> 
+	<entry key="esito.021004">Allegato gia' eliminato (EN)</entry> 
+	
+	<entry key="esito.022002">Pratica inesistente (EN)</entry> 
+	<entry key="esito.022003">Nessun allegato per l'identificativo indicato  (EN)</entry> 
+	
+	<entry key="esito.023002">Pratica inesistente (EN)</entry> 
+	<entry key="esito.023003">Nessun riepilogo per l'identificativo indicato (EN)</entry> 
+	<entry key="esito.023004">Uno o più recapiti tra quelli indicati sono inesistenti (EN)</entry> 
+	<entry key="esito.023005">L'hash dell''allegato è obbligatorio (EN)</entry> 
+	
+	<entry key="esito.024002">Riepilogo inesistente (EN)</entry> 
+	
+	<entry key="esito.025002">Riepilogo inesistente (EN)</entry> 
+	
+	<entry key="esito.026002">Pratica inesistente (EN)</entry> 
+	<entry key="esito.026003">Riepilogo inesistente (EN)</entry> 
+	
+	<entry key="esito.027002">Nessuna pratica per i parametri impostati (EN)</entry> 
+	<entry key="esito.027003">Il numero pratiche estratto è troppo elevato. Occorre restringere i criteri di ricerca (EN)</entry> 
+	<entry key="esito.027004">Parametri di paginazione errati (EN)</entry> 
+	<entry key="esito.027005">Pagina senza elementi (EN)</entry> 
+	<entry key="esito.027006">Intervallo date maggiore del limite impostato (EN)</entry> 
+	
+	<entry key="esito.029002">Nessuna pratica per i parametri impostati (EN)</entry> 
+	<entry key="esito.029003">Il numero di record selezionati eccede il limite previsto (EN)</entry> 
+	<entry key="esito.029004">Parametri di paginazione errati (EN)</entry> 
+	<entry key="esito.029005">Pagina senza elementi (EN)</entry> 
+	
+	<entry key="esito.031002">Pratica inesistente (EN)</entry> 
+	<entry key="esito.031003">Stato non congruente (EN)</entry> 
+	
+	<entry key="esito.032002">Nessuna richiesta per i parametri impostati (EN)</entry> 
+	<entry key="esito.032003">E' stato superato il numero di proroghe ammissibili (EN)</entry> 
+	<entry key="esito.032004">Lo stato della pratica non è congruente (EN)</entry> 
+	
+	<entry key="esito.033002">Nessun dato trovato (EN)</entry> 
+	<entry key="esito.033003">Errore nella ricerca (EN)</entry> 
+	
+	<entry key="esito.034002">Comune inesistente (EN)</entry> 
+	<entry key="esito.034003">Dati non coerenti (EN)</entry> 
+	<entry key="esito.034004">Errore nel recupero delle informazioni precedenti (EN)</entry> 
+	<entry key="esito.034005">Nessuna modifica da apportare (EN)</entry> 
+	<entry key="esito.034006">Errore nell'inserimento delle informazioni (EN)</entry> 
+	
+	<entry key="esito.035002">Nessun dato trovato (EN)</entry> 
+	
+	<entry key="esito.036002">Certificato non esistente (EN)</entry> 
+	<entry key="esito.036003">Certificato già storicizzato (EN)</entry> 
+	
+	<entry key="esito.037002">Accesso negato (EN)</entry> 
+</properties>

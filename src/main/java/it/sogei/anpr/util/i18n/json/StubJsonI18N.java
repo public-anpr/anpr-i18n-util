@@ -63,6 +63,7 @@ public class StubJsonI18N {
 	}
 	
 	public static final String CODICE_LINGUA_IT = "it";
+	public static final String CODICE_LINGUA_DE = "de";
 	
 	private final static Logger logger = LoggerFactory.getLogger( StubJsonI18N.class );
 

@@ -1,0 +1,54 @@
+{
+  "praticheHeader": "Storico richieste (DE)",
+  "infoSession": "Per tutti i servizi, dopo 30 minuti di inattività, la sessione scadrà e sarà necessario effettuare nuovamente l'autenticazione. (DE)",
+  "richiesteRecenti": "Richieste recenti (DE)",
+  "loginForm": {
+    "accedi": "ACCEDI (DE)"
+  },
+  "residenzaServizioNonAttivo": {
+    "servizioNonAttivo": "Servizio non attivo (DE)",
+    "title": "Servizi al cittadino (DE)"
+  },
+  "scrollToTop": {
+    "titles": {
+      "home": "Scrivania (DE)",
+      "profiloUtente": "Profilo utente (DE)",
+      "avvisi": "Storico avvisi (DE)",
+      "avviso": "Dettaglio avviso (DE)",
+      "storicoPratiche": "Storico richieste (DE)",
+      "visura": "Visura (DE)",
+      "certificazione": "Certificazione (DE)",
+      "componenteForm": "Richiedi certificato (DE)",
+      "certOnline": "Certificazione (DE)",
+      "certFamiglia": "Richiedi certificato (DE)",
+      "certSoggetto": "Richiedi certificato (DE)",
+      "certRichiesta": "Richiedi certificato (DE)",
+      "residenza": "Residenza (DE)",
+      "registrazioneResidenza": "Dichiarazione di cambio residenza (DE)",
+      "registrazioneNuovaResidenza": "Nuova residenza (DE)",
+      "registrazioneResidenzaFamigliaEsistente": "Residenza in famiglia esistente (DE)",
+      "comunicazioni": "Rettifica dati (DE)",
+      "rettifica": "Richiesta di rettifica (DE)",
+      "dettaglio": "Dettaglio richiesta (DE)"
+    },
+    "goToTop": "Vai al top della pagina (DE)"
+  },
+  "sessionExpire": {
+    "laSessioneScade": "La sessione scade tra (DE)",
+    "min": "min e (DE)",
+    "sec": "sec (DE)",
+    "sessioneScaduta": "La sessione è scaduta! (DE)"
+  },
+  "visuraAnagrafica": {
+    "body": {
+      "vaiAllApplicazione": "Vai all'applicazione <sr-only>{{visuraAnagrafica}}</sr-only> (DE)",
+      "newWindow": ": apre una nuova finestra (DE)"
+    },
+    "title": "Visura (DE)",
+    "descrizione": "In questa sezione è possibile consultare i propri dati anagrafici. (DE)"
+  },
+  "tabsControl": {
+    "tabPrecedente": "Tab precedente (DE)",
+    "tabSuccessivo": "Tab successivo (DE)"
+  }
+}

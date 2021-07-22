@@ -1,0 +1,24 @@
+{
+  "home": {
+    "title": "Avvisi (EN)",
+    "footer": "Storico avvisi (EN)",
+    "empty": "Nessun avviso (EN)",
+    "detail": "Dettaglio <sr-only>{{avviso}}</sr-only> (EN)",
+    "popover": "Leggi {{avviso}} (EN)"
+  },
+  "storico": {
+    "title": "Storico avvisi (EN)",
+    "desc": "In questa sezione &egrave; possibile consultare la lista storica di tutti gli avvisi. (EN)",
+    "caption": "Elenco avvisi (EN)",
+    "thId": "Id (EN)",
+    "thData": "Data (EN)",
+    "thOggetto": "Oggetto (EN)",
+    "thAzioni": "Azioni (EN)",
+    "empty": "Nessun avviso trovato (EN)",
+    "popover": "Leggi {{avviso}} (EN)",
+    "searchTitle": "Ricerca avvisi (EN)",
+    "labelAnno": "Anno (EN)",
+    "labelOggetto": "Oggetto (EN)",
+    "btnCerca": "Cerca (EN)"
+  }
+}

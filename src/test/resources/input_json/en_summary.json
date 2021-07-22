@@ -1,0 +1,10 @@
+{
+  "lang": "en",
+  "base-path-it": "it/",
+  "base-path-label": "label/",
+  "base-path-trad": "trad/",
+  "sheet-list": {
+    "allegati": "Pagina degli allegati",
+    "etc_etc": "Altri file"
+  }
+}
